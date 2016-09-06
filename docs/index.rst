@@ -1,0 +1,3 @@
+.. BFE file
+   Test
+
