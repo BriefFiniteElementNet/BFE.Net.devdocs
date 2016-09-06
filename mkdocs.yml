@@ -1,4 +1,4 @@
 site_name: Test
 pages:
-  - Home: index.md
-  - Test: test.md
+  - Home: index.rst
+  - Test: test.rst
