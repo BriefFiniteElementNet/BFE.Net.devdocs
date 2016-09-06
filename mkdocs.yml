@@ -1,6 +1,4 @@
 site_name: Test
-repo_url: https://github.com/epsi1on/BFE.Net.devdocs
-docs_dir: docs
 pages:
   - Home: index.md
   - Test: test.md
