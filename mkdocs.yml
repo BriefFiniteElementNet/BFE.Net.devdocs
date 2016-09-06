@@ -1,1 +1,5 @@
-Test
+site_name: Brief Finite Element .NET
+repo_url: https://github.com/epsi1on/BFE.Net.devdocs
+docs_dir: docs
+pages:
+  - Test: test.md
