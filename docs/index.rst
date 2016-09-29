@@ -15,7 +15,7 @@ Get Brief Finite Element .NET
 
 The Model
 ---------
-In BFE.NET, a Finite Element model is an instance of ```Model``` class. A model is consisted of a list of Nodes, and a list of Elements allowing you to analyse the model, get displacements of Nodes displacements and internal forces of Elements.
+
 
 .. code-block:: c#
 	:linenos:
