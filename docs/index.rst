@@ -31,4 +31,5 @@ Loading
     :hidden:
     :maxdepth: 2
 
-    test
+    elements/index
+	gettingstarted/index
