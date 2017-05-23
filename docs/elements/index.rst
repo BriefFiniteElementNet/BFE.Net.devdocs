@@ -5,9 +5,9 @@ BarElement, TriangleElement, TetrahedronElement
 ----------
 
 .. toctree::
-    :titlesonly:
-    :hidden:
-    :maxdepth: 2
+	:titlesonly:
+	:hidden:
+	:maxdepth: 2
 
 	BarElement
 	
