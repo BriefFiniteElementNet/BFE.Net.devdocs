@@ -1,5 +1,11 @@
 Elements Available
 ------------------
 
-this is file ```Elements/index.rst```
-this is file ```Elements/index.rst```
+.. toctree::
+    :titlesonly:
+    :hidden:
+    :maxdepth: 2
+
+	BarElement.rst
+	TriangleElement.rst
+	TetrahedronElement.rst
