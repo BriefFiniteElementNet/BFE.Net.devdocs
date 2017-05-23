@@ -6,6 +6,6 @@ Elements Available
     :hidden:
     :maxdepth: 2
 
-	BarElement.rst
-	TriangleElement.rst
-	TetrahedronElement.rst
+	BarElement
+	TriangleElement
+	TetrahedronElement
