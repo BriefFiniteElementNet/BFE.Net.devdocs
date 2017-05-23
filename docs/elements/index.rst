@@ -7,5 +7,3 @@ Elements Available
     :maxdepth: 2
 
 	BarElement
-	TriangleElement
-	TetrahedronElement
