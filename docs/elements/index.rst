@@ -6,6 +6,7 @@ Elements Available
     :hidden:
     :maxdepth: 2
 
+	index
 	BarElement
 
 rest
