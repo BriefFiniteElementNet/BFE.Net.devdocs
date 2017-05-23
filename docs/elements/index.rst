@@ -11,6 +11,6 @@ Elements Available
     TetrahedronElement
 
 There are several elements available in `BriefFiniteElement` library:
-	- `BarElement`_: A 1D, 2 noded element
-	- `TriangleElement`_: A 2D, 3 noded element
-	- `TetrahedronElement`_: A 3D, 4 noded element
+	- :doc:BarElement: A 1D, 2 noded element
+	- :doc:TriangleElement: A 2D, 3 noded element
+	- :doc:TetrahedronElement: A 3D, 4 noded element
