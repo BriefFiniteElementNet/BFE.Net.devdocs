@@ -1,9 +1,10 @@
-Intro
------
+BarElement
+==========
+
 A bar element is referred to an 1D element, which only have dimension in one direction.
 
-Behaviour of BarElement
------------------------
+Behaviours
+----------
 
 BarElement have a BarElement.Behaviour property which is an enum flag - which means can have several values at same time. The possible behaviours for the BarElement is:
 
@@ -60,6 +61,7 @@ Local coordination system for ```BarElement``` has tree axis that we name ```x'`
 TODO with images
 Relation of global and local system
 -----------------------------------
+
 "The global axes are brought to coinside with the local member axes by seauence of rotation about y, z and x axes respectively. This is refered to an y-z-x transformation." ref[0].
 
 Imagine a bar element with start node ```N1``` located at ```(x1, y1, z1)``` and end node ```N2``` located at ```(x2,y2,z2)```. Four steps are needed to find the directions of the local axis x'-y'-z':

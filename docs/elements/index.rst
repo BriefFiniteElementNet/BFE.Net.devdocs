@@ -1,5 +1,5 @@
 Elements Available
-------------------
+==================
 
 .. toctree::
     :titlesonly:
