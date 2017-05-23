@@ -1,6 +1,6 @@
 Intro
 =====
-Triangle element is only area or surface element in BFE. It is consist of a CST (Constant Stress (and Strain) Triangle) element for in plane loads, and a DKT (Discrete Kirchhoff Triangle) element for carying out of plane loads and moments and also an additional stiffness for drilling DoF.
+Triangle element is only area or surface element in BFE. It is consist of a CST (Constant Stress (and Strain) Triangle) element for in plane loads, and a DKT (Discrete Kirchhoff Triangle) element for carying out off plane loads and moments and also an additional stiffness for drilling DoF.
 
 # DoFs
 Triangle element in BFE does have three nodes, each one for a corner of triangle in 3D space. Each node have 6 DoFs in global coordination system.
@@ -25,9 +25,11 @@ The properties of Triangle element:
 		MembraneFormulation.PlaneStress: plane stress situation
 		MembraneFormulation.PlaneStrain: plane strain situation
 	
-	AddDrillingDof: neither DKT and CST elements does have stiffness in rotation DOF about local Z axis of element. If this is set to true, based on solution provided in ref[1], an additional stiffness in rotation DoF about local Z axis is added to element.
+	AddDrillingDof: neither DKT and CST elements does have stiffness in rotation DOF about element's local Z axis. 
+	If this is set to true, based on solution provided in ref[1], an additional stiffness in rotation DoF about local Z axis is added to element.
 	
-	
+## Notes:
+
 	
 	
 # References

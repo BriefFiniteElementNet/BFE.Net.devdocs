@@ -27,7 +27,7 @@ There are two different ways to define geometrical properties of a FrameElement2
 		- FrameElement2Node.Geometry: A polygon, in Y-Z 2d space, which describes the geometry of cross section in Y-Z coordinate system. Note: Ay and Az are note calculated from Geometry
 		
 
-## modelling properties:
+## Modelling Properties:
 - FrameElement2Node.WebRotation: Determines the additional rotation amount of element around its X direction in clockwise (TODO: or ccw?) direction.
 - FrameElement2Node.UseOverridedProperties: determines whether calculations should calculates geometrical properties from FrameElement2Node.Geometry, or from other properties (like A, Iy, Iz, etc).
 - FrameElement2Node.HingedAtStart: determines whether connection of beam at start point is hinged, or it is fixed. This is different than fixing DoFs in start node.

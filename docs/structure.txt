@@ -21,19 +21,18 @@ Creating a FE model (sections is same page)
 	- Nodes
 	- Elements
 	- Loads
+	- Setting Settlements & Constraints
 
 Analysing a FE Model
+	- Load Cases and their application
 	- Precheck for errors
 	- Solvers
 
 Elements inside BFE
-	- Truss element
+	- BarElement
 		DoFs
 		Properties
-	- Frame element
-		DoFs
-		Properties
-	- Triangular plate element
+	- TriangleElement
 		DoFs
 		Properties
 	- 3d tetrahedron element
