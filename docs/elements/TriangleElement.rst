@@ -1,5 +1,5 @@
 Intro
-=====
+-----
 Triangle element is only area or surface element in BFE. It is consist of a CST (Constant Stress (and Strain) Triangle) element for in plane loads, and a DKT (Discrete Kirchhoff Triangle) element for carrying out off plane loads and moments and also an additional stiffness for drilling DoF.
 
 # DoFs

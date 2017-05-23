@@ -1,9 +1,10 @@
 Intro
-=====
+-----
 A bar element is referred to an 1D element, which only have dimension in one direction.
 
 Behaviour of BarElement
-=====
+-----------------------
+
 BarElement have a BarElement.Behaviour property which is an enum flag - which means can have several values at same time. The possible behaviours for the BarElement is:
 
 EulerBernoulyBeamY : Beam in Y direction based on Euler-Bernouly theory
@@ -40,22 +41,25 @@ bar.Behaviour = BarElementBehaviour.Truss | BarElementBehaviour.BeamYEulerBernou
 So better to use ```BarElementBehaviours``` unless needed manually define combination of behaviours.
 
 Geometrical properties of Bar Element's Cross Section
-=====
+-----------------------------------------------------
+
 BarElement is modelled as a 1D element, and it needs to have geometrical values of it's cross section (like A, Iy, Iz, etc.).
 BarElement.CrossSection property does define it.
 
 Mechanical properties of Bar Element's Cross Section
-=====
+----------------------------------------------------
+
 Mechanical properties of bar element means the properties on material, like elastic modulus or shear modulus.
 BarElement.Material property does set the material property of bar element.
 
 
 Local Coordination System
-====
+-------------------------
+
 Local coordination system for ```BarElement``` has tree axis that we name ```x'```, ```y'``` and ```z'```. 
 TODO with images
 Relation of global and local system
-===
+-----------------------------------
 "The global axes are brought to coinside with the local member axes by seauence of rotation about y, z and x axes respectively. This is refered to an y-z-x transformation." ref[0].
 
 Imagine a bar element with start node ```N1``` located at ```(x1, y1, z1)``` and end node ```N2``` located at ```(x2,y2,z2)```. Four steps are needed to find the directions of the local axis x'-y'-z':
