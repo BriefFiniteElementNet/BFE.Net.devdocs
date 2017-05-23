@@ -1,5 +1,5 @@
 Brief Finite Element .NET
--------------------------
+=========================
 
 .. toctree::
     :titlesonly:

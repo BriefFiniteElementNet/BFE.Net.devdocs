@@ -10,8 +10,6 @@ BarElement, TriangleElement, TetrahedronElement
     :maxdepth: 2
 
 	BarElement
-	TriangleElement
-	TetrahedronElement
 	
 Test
 ----
