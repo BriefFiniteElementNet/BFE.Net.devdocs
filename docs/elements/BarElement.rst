@@ -16,9 +16,10 @@ These behaviours can be combined, for example a truss member should only have a 
  
 This is an example which makes a BarElement with truss behaviour which in real acts as a truss member that only can carry axial load:
 
-.. highlight:: c++
-      var bar = new BarElement();
-      bar.Behaviour = BarElementBehaviour.Truss;
+.. code-block:: sql
+   
+   var bar = new BarElement();
+   bar.Behaviour = BarElementBehaviour.Truss;
 
 There is another utility static class named ```BarElementBehaviours``` which contains predefined combination behaviours for BarElement which is more user (developer) friendly than original enum flag.
 This is example usage of ```BarElementBehaviours``` class:
