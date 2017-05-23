@@ -23,16 +23,3 @@ Get Brief Finite Element .NET
 
     PM>  Install-Package TOBEDONE
 
-The Model
----------
-
-
-.. code-block:: c#
-	:linenos:
-	using BriefFiniteElement;
-
-	
-Loading
--------
-
-
