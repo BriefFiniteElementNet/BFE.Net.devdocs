@@ -10,4 +10,7 @@ Elements Available
     TriangleElement
     TetrahedronElement
 
-rest
+There are several elements available in `BriefFiniteElement` library:
+	- BarElement
+	- TriangleElement
+	- TetrahedronElement
