@@ -44,12 +44,3 @@ Key Features of BFE.NET:
 	Direct (Cholesky) and Iterative (Condugate Gradient - CG) solvers for solving equation system
 	Ability to make some pre checks to find fundamental errors in Model
 	
-.. toctree::
-  :titlesonly:
-  :caption: The following platforms are available
-  :maxdepth: 1
-
-  full-dotnet/index
-  netcore/index
-  aspnetcore/index
-  uwp/index
