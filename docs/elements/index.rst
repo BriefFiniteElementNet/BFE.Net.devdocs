@@ -5,7 +5,7 @@ BarElement, TriangleElement, TetrahedronElement
 ----------
 
 .. toctree::
-	:titlesonly:
+
 	:hidden:
 	:maxdepth: 2
 
