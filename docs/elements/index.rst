@@ -1,6 +1,9 @@
 Elements Available
 ==================
 
+BarElement, TriangleElement, TetrahedronElement
+----------
+
 .. toctree::
     :titlesonly:
     :hidden:
