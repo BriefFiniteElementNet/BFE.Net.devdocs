@@ -17,7 +17,7 @@ These behaviours can be combined, for example a truss member should only have a 
  
 This is an example which makes a BarElement with truss behaviour which in real acts as a truss member that only can carry axial load:
 
-.. code-block:: sql
+.. code-block:: cs
    
    var bar = new BarElement();
    bar.Behaviour = BarElementBehaviour.Truss;
