@@ -4,7 +4,7 @@ A bar element is referred to an 1D element, which only have dimension in one dir
 
 Behaviours
 ----------
-BarElement have a `BarElement.Behaviour` property which is an enum flag - which means can have several values at same time. The possible behaviours for the BarElement is:
+BarElement have a ``BarElement.Behaviour`` property which is an enum flag - which means can have several values at same time. The possible behaviours for the BarElement is:
 
 - `EulerBernoulyBeamY` : Beam in Y direction based on Euler-Bernouly theory
 - `EulerBernoulyBeamZ` : Beam in Z direction based on Euler-Bernouly theory
@@ -22,7 +22,7 @@ This is an example which makes a BarElement with truss behaviour which in real a
    var bar = new BarElement();
    bar.Behaviour = BarElementBehaviour.Truss;
 
-There is another utility static class named ```BarElementBehaviours``` which contains predefined combination behaviours for BarElement which is more user (developer) friendly than original enum flag.
+There is another utility static class named ``BarElementBehaviours`` which contains predefined combination behaviours for BarElement which is more user (developer) friendly than original enum flag.
 This is example usage of ```BarElementBehaviours``` class:
 
 ```
