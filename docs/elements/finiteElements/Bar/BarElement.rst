@@ -1,6 +1,7 @@
 BarElement
 ==========
 A bar element is referred to an 1D element, which only have dimension in one direction.
+
 Behaviours
 ----------
 BarElement have a `BarElement.Behaviour` property which is an enum flag - which means can have several values at same time. The possible behaviours for the BarElement is:
