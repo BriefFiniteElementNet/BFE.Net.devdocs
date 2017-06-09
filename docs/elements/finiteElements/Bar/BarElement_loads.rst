@@ -1,9 +1,9 @@
 Loads that can be applied to BarElement
-===
-There are several loads currently applyable to BarElement.
+=======================================
+There are several loads currently applicable to BarElement.
 
 Uniform Load
-===
+============
 Uniform load is a uniform, per length load in [N/m] dimension, which is applied on the bar element.
 
 [image]
@@ -14,12 +14,12 @@ Please note that if coordination system of load is set to global, Ux and Uy and 
 Example:
 
 Concentrated Load
-===
-Concentrated load is a single concentrated load which is applying in a point which exists on the ```BarElement```'s length.
+=================
+Concentrated load is a single concentrated load which is applying in a point which exists on the ``BarElement``'s length.
 
 Example:
 
 Trapezoidal Load
-===
+================
 Trapezoidal load is a linearly varying load, with specific start and end, which is applied on the bar element.
 This is more general than UniformLoad
