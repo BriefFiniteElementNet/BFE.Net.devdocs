@@ -23,19 +23,19 @@ This is an example which makes a BarElement with truss behaviour which in real a
    bar.Behaviour = BarElementBehaviour.Truss;
 
 There is another utility static class named ``BarElementBehaviours`` which contains predefined combination behaviours for BarElement which is more user (developer) friendly than original enum flag.
-This is example usage of ```BarElementBehaviours``` class:
+This is example usage of ``BarElementBehaviours`` class:
 
-```
-var bar = new BarElement();
-bar.Behaviour = BarElementBehaviours.FullFrame;
-```
+.. code-block:: cs
+   var bar = new BarElement();
+   bar.Behaviour = BarElementBehaviours.FullFrame;
+
 If we did not want use BarElementBehaviours utility, then we had to write like this:
 
-```
-var bar = new BarElement();
-bar.Behaviour = BarElementBehaviour.Truss | BarElementBehaviour.BeamYEulerBernoulli | BarElementBehaviour.BeamZEulerBernoulli | BarElementBehaviour.Shaft;
-```
-So better to use ```BarElementBehaviours``` unless needed manually define combination of behaviours.
+.. code-block:: cs
+   var bar = new BarElement();
+   bar.Behaviour = BarElementBehaviour.Truss | BarElementBehaviour.BeamYEulerBernoulli | BarElementBehaviour.BeamZEulerBernoulli | BarElementBehaviour.Shaft;
+
+So better to use ``BarElementBehaviours`` unless needed manually define combination of behaviours.
 
 Geometrical properties of Bar Element's Cross Section
 -----------------------------------------------------
@@ -53,17 +53,17 @@ BarElement.Material property does set the material property of bar element.
 Local Coordination System
 -------------------------
 
-Local coordination system for ```BarElement``` has tree axis that we name ```x'```, ```y'``` and ```z'```. 
+Local coordination system for ``BarElement`` has tree axis that we name ``x'``, ``y'`` and ``z'``. 
 TODO with images
 Relation of global and local system
 -----------------------------------
 
 "The global axes are brought to coinside with the local member axes by seauence of rotation about y, z and x axes respectively. This is refered to an y-z-x transformation." ref[0].
 
-Imagine a bar element with start node ```N1``` located at ```(x1, y1, z1)``` and end node ```N2``` located at ```(x2,y2,z2)```. Four steps are needed to find the directions of the local axis x'-y'-z':
+Imagine a bar element with start node ``N1`` located at ``(x1, y1, z1)`` and end node ``N2`` located at ``(x2,y2,z2)``. Four steps are needed to find the directions of the local axis x'-y'-z':
 
 - Step 1:
-Move the element in a way that ```N1``` be placed at origins of global system.
+Move the element in a way that ``N1`` be placed at origins of global system.
 TODO: Image
 
 - Step 2:
