@@ -13,25 +13,25 @@ The properties of Triangle element:
 
 Mechanical Properties
 ---------------------
-- **ElasticModulus**: Elastic Modulus measures in [Pascal] or [Pas]
-- **PoissonRatio**: poisson ratio, in [0,0.5] range, dimension less
+- ``ElasticModulus``: Elastic Modulus measures in [Pascal] or [Pas]
+- ``PoissonRatio``: poisson ratio, in [0,0.5] range, dimension less
 	
 Geometrical Properties
 ----------------------
-- **Thickness**: Thickness of element, measures in [m] unit
+- ``Thickness``: Thickness of element, measures in [m] unit
 	
 Modelling properties
 --------------------
-- **Behavior**: Determines the behaviour of element, three possible values: (by default is ThinShell)
-	FlatShellBehaviour.ThinPlate: based on discrete Kirchhoff theory, only plate bending behaviour
-	FlatShellBehaviour.Membrane: The membrane, only in-plane forces, no moments. Only membrane behavior.
-	FlatShellBehaviour.ThinShell: The thin shell, based on discrete Kirchhoff theory, combination of Plate and Membrane
+- ``Behavior``: Determines the behaviour of element, three possible values: (by default is ThinShell)
+		FlatShellBehaviour.ThinPlate: based on discrete Kirchhoff theory, only plate bending behaviour
+		FlatShellBehaviour.Membrane: The membrane, only in-plane forces, no moments. Only membrane behavior.
+		FlatShellBehaviour.ThinShell: The thin shell, based on discrete Kirchhoff theory, combination of Plate and Membrane
 		
-- **MembraneFormulationType**: Determines the formulation type of membrane. only if Behaviour is either Membrane or ThinShell, then this property does taken into account. Two possible values:
-	*MembraneFormulation.PlaneStress*: plane stress situation
-	*MembraneFormulation.PlaneStrain*: plane strain situation
+- ``MembraneFormulationType``: Determines the formulation type of membrane. only if Behaviour is either Membrane or ThinShell, then this property does taken into account. Two possible values:
+		MembraneFormulation.PlaneStress: plane stress situation
+		MembraneFormulation.PlaneStrain: plane strain situation
 	
-- **AddDrillingDof**: neither DKT and CST elements does have stiffness in rotation DOF about element's local Z axis. If this is set to true, based on solution provided in ref[1], an additional stiffness in rotation DoF about local Z axis is added to element.
+- ``AddDrillingDof``: neither DKT and CST elements does have stiffness in rotation DOF about element's local Z axis. If this is set to true, based on solution provided in ref[1], an additional stiffness in rotation DoF about local Z axis is added to element.
 	
 Notes
 -----
