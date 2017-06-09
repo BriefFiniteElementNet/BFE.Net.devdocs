@@ -30,7 +30,7 @@ This is example usage of ``BarElementBehaviours`` class:
    var bar = new BarElement();
    bar.Behaviour = BarElementBehaviours.FullFrame;
 
-If we did not want use BarElementBehaviours utility, then we had to write like this:
+If we did not want use BarElementBehaviours utility, then we had to write like this (in this example both are same):
 
 .. code-block:: cs
    
@@ -56,7 +56,9 @@ Local Coordination System
 -------------------------
 
 Local coordination system for ``BarElement`` has tree axis that we name ``x'``, ``y'`` and ``z'``. 
+
 TODO with images
+
 Relation of global and local system
 -----------------------------------
 
