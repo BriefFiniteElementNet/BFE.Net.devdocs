@@ -26,12 +26,14 @@ There is another utility static class named ``BarElementBehaviours`` which conta
 This is example usage of ``BarElementBehaviours`` class:
 
 .. code-block:: cs
+   
    var bar = new BarElement();
    bar.Behaviour = BarElementBehaviours.FullFrame;
 
 If we did not want use BarElementBehaviours utility, then we had to write like this:
 
 .. code-block:: cs
+   
    var bar = new BarElement();
    bar.Behaviour = BarElementBehaviour.Truss | BarElementBehaviour.BeamYEulerBernoulli | BarElementBehaviour.BeamZEulerBernoulli | BarElementBehaviour.Shaft;
 
