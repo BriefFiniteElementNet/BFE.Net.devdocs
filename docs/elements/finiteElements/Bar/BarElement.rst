@@ -9,10 +9,14 @@ BarElement have a ``BarElement.Behaviour`` property which is an enum flag - whic
 - ``EulerBernoulyBeamY`` : Beam in Y direction based on Euler-Bernouly theory
 .. image:: ../images/bar-b1.png
 - ``EulerBernoulyBeamZ`` : Beam in Z direction based on Euler-Bernouly theory
+.. image:: ../images/bar-b2.png
 - ``TimoshenkoBeamY`` : Beam in Y direction based on Timoshenko's theory (shear deformation)
+
 - ``TimoshenkoBeamZ`` : Beam in Z direction based on Timoshenko's theory (shear deformation)
 - ``Truss`` : Only axial load carrying
+.. image:: ../images/bar-truss.png
 - ``Shaft`` : Only torsional moment carrying
+.. image:: ../images/bar-shaft.png
 
 These behaviours can be combined, for example a truss member should only have a Truss behaviour, but a 3d frame member does have two beam behaviour in Y and Z directions, a truss behaviour and a shaft behaviour, (all these behaviours at the same time).
  
