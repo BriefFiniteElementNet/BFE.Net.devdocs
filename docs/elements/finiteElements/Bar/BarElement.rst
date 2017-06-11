@@ -45,6 +45,11 @@ If we did not want use BarElementBehaviours utility, then we had to write like t
 
 So better to use ``BarElementBehaviours`` unless needed manually define combination of behaviours.
 
+``BarElementBehaviours.FullBeam`` and ``BarElementBehaviours.FullBeamWithShearDefomation``:
+.. image:: ../images/bar-fullB.png
+``BarElementBehaviours.FullFrame`` and ``BarElementBehaviours.FullFrameWithShearDeformation``:
+.. image:: ../images/bar-fullFrame.png
+
 Geometrical properties of Bar Element's Cross Section
 -----------------------------------------------------
 
