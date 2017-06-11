@@ -17,7 +17,16 @@ BarElement have a ``BarElement.Behaviour`` property which is an enum flag - whic
    The legend consists of all elements after the caption.  In this
    case, the legend consists of this paragraph and the following
    table:
-
+   +-----------------------+-----------------------+
+   | Symbol                | Meaning               |
+   +=======================+=======================+
+   | .. image:: tent.png   | Campground            |
+   +-----------------------+-----------------------+
+   | .. image:: waves.png  | Lake                  |
+   +-----------------------+-----------------------+
+   | .. image:: peak.png   | Mountain              |
+   +-----------------------+-----------------------+
+   
 - ``EulerBernoulyBeamZ`` : Beam in Z direction based on Euler-Bernouly theory
 .. image:: ../images/bar-b2.png
 - ``TimoshenkoBeamY`` : Beam in Y direction based on Timoshenko's theory (shear deformation)
