@@ -50,7 +50,7 @@ So better to use ``BarElementBehaviours`` unless needed manually define combinat
 .. image:: ../images/bar-fullB.png
 ``BarElementBehaviours.FullFrame`` and ``BarElementBehaviours.FullFrameWithShearDeformation``: 
 
-.. image:: ../images/bar-fullFrame.png
+.. image:: ../images/bar-fullframe.png
 
 Geometrical properties of Bar Element's Cross Section
 -----------------------------------------------------
