@@ -7,8 +7,7 @@ Special Elements
     :maxdepth: 2
 
     rigid/index
-    Triangle/TriangleElement
-    Tetrahedron/TetrahedronElement
+    telepathy/index
 	
 Special elements are kind of virtual elements that binds several DoFs of a model together and reduces the overall number of independent DoFs.
 Best example is ```TelepathyLink``` that can bind DoFs of several nodes together. For example this model have 8 DoFs:
