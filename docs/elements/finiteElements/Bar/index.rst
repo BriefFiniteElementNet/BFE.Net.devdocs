@@ -13,9 +13,9 @@ A bar element is referred to an 1D element, which only have dimension in one dir
     :hidden:
     :maxdepth: 2
 
-    BarElement_behavs
-    BarElement_geos
-    BarElement_mats
-    BarElement_loads
-    BarElement_coords
-    BarElement_internalforces
+    behavs
+    geos
+    mats
+    loads
+    coords
+    internalforces
