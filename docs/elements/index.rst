@@ -7,7 +7,7 @@ Elements Available
     :maxdepth: 2
 
     finiteElements/index
-    specialelements/index
+    mpcelements/index
 
 There are two general types of elements available in BFE:
 	- Normal Finite Elements: Physical elements that provide stiffness, mass and damp matrices.
