@@ -1,4 +1,4 @@
-This documentation is under construction
-########################################
+🗙 Under Construction 🗙
+#######################
 
-This documentation is under construction. Some of documented features (like telepathy link) is not implemented in main library.
+This documentation is under construction. And some of documented features (like telepathy link) is not implemented in main library.
