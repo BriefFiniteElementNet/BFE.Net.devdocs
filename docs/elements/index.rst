@@ -1,14 +1,13 @@
 Elements Available
-==================
+##################
 
 .. toctree::
     :titlesonly:
     :hidden:
     :maxdepth: 2
 
-    finiteElements/Bar/BarElement
-    finiteElements/Triangle/TriangleElement
-    finiteElements/Tetrahedron/TetrahedronElement
+    finiteElements/index
+    specialelements/index
 
 There are two types of elements available in BFE:
 	- Normal Finite Elements: Physical elements that provide stiffness, mass and damp matrices.
