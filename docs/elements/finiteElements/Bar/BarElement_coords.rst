@@ -1,15 +1,15 @@
 Coordination Systems
-====================
+--------------------
 
 Local Coordination System
--------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Local coordination system for ``BarElement`` has tree axis that we name ``x'``, ``y'`` and ``z'``. 
 
 TODO with images
 
 Relation of global and local system
------------------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 "The global axes are brought to coinside with the local member axes by seauence of rotation about y, z and x axes respectively. This is refered to an y-z-x transformation." ref[0].
 
