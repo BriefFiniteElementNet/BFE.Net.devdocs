@@ -1,5 +1,5 @@
-Cross Sections
---------------
+Cross Section
+-------------
 ``BarElement`` is modelled as a 1D element, and it needs to have geometrical values of it's cross section (like A, Iy, Iz, etc.). ``BarElement.CrossSection`` does define a cross section for ``BarElement``.
 The type ``BaseBarElementCrossSection`` is base class that is used for defining a cross section for bar element. This class is a general class which can gives every information of section's geometric properties at specific location of length of element.
 All other cross sections of bar element are inherited from ``BaseBarElementCrossSection`` class.
