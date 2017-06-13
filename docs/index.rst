@@ -8,8 +8,8 @@ Brief Finite Element .NET
 
 	index
     elements/index
-	loads/index
-	gettingstarted/index
+    loads/index
+    gettingstarted/index
 	
 
 Brief Finite Element .NET (or BFE.NET or BFE) is an object oriented framework that enables .NET developers to do some Finite Element Analysis using .NET objects.
