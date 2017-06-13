@@ -7,8 +7,7 @@ Brief Finite Element .NET
     :hidden:
     :maxdepth: 2
 
-	underconstruction
-	index
+    underconstruction
     elements/index
     loads/index
     gettingstarted/index
