@@ -8,6 +8,6 @@ Elemental Loads
 
     concentratedload
     nonuniformload
-	uniformload
+    uniformload
 	
 TODO: overview of elemental load
