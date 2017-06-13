@@ -33,7 +33,7 @@ This is example usage of ``BarElementBehaviours`` class:
    var bar = new BarElement();
    bar.Behaviour = BarElementBehaviours.FullFrame;
 
-If we did not want use BarElementBehaviours utility, then we had to write like this (in this example both are same):
+Which is exactly equal to:
 
 .. code-block:: cs
    
