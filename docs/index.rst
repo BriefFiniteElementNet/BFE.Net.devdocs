@@ -8,6 +8,7 @@ Brief Finite Element .NET
 
 	index
     elements/index
+	loads/index
 	gettingstarted/index
 	
 
