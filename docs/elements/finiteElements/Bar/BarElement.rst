@@ -9,6 +9,7 @@ A bar element is referred to an 1D element, which only have dimension in one dir
 
     BarElement_behavs
     BarElement_geos
-	BarElement_mats
-	BarElement_loads
-	BarElement_internalforces
+    BarElement_mats
+    BarElement_loads
+    BarElement_coords
+    BarElement_internalforces
