@@ -1,7 +1,8 @@
-Material properties for bar element
-===================================
-BarElement.Material does define a material for our bar element.
-the type ```BaseBarMaterial``` is base class that is used for defining a material for bar element. This class is a general class which can give us every information needed for stiffness matrix. All other materials of bar section are inherited from this class
+Material
+========
+``BarElement.Material`` property defines a material for this element.
+the type ``BaseBarMaterial`` is base class that is used for defining a material for bar element. This class is a general class which can gives every information of section's materials at specific location of length of element.
+ All other materials of bar section are inherited from ``BaseBarMaterial`` class.
 
 UniformParametricBarElementCrossSection
 ========================================

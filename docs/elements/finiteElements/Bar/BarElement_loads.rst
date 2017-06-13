@@ -1,6 +1,6 @@
-Loads that can be applied to BarElement
-=======================================
-There are several loads currently applicable to BarElement.
+Applicable Loads
+================
+There are several loads currently applicable to ```BarElement```.
 
 Uniform Load
 ============
