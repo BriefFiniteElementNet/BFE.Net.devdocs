@@ -31,9 +31,9 @@ Examples
 Example 1 (BarElement)
 ^^^^^^^^^^^^^^^^^^^^^^
 - adding a ``UniformLoad`` with :
-	Magnitude of **100 [N/m]**
-	Direction of **X**
-	Coordination System of **global**
+	- Magnitude of **100 [N/m]**
+	- Direction of **X**
+	- Coordination System of **global**
 to a ``BarElement``:
 
 .. code-block:: cs
@@ -52,9 +52,9 @@ TODO: Image
 Example 2 (BarElement)
 ^^^^^^^^^^^^^^^^^^^^^^
 - adding a ``UniformLoad`` with :
-	Magnitude of **100 [N/m]**
-	Direction of **X**
-	Coordination System of **local**
+	- Magnitude of **100 [N/m]**
+	- Direction of **X**
+	- Coordination System of **local**
 to a ``BarElement``:
 
 .. code-block:: cs
@@ -73,9 +73,9 @@ TODO: Image to show load direction
 Example 3 (TriangleElement)
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
 - adding a ``UniformLoad`` with :
-	Magnitude of **100 [N/m]**
-	Direction of **Z**
-	Coordination System of **global**
+	- Magnitude of **100 [N/m]**
+	- Direction of **Z**
+	- Coordination System of **global**
 to a ``TriangleElement``:
 
 .. code-block:: cs
