@@ -36,9 +36,9 @@ Example 1 (BarElement)
 ^^^^^^^^^^^^^^^^^^^^^^
 
 - adding a ``UniformLoad`` with :
-	- Magnitude of **100 [N/m]**
-	- Direction of **X**
-	- Coordination System of **global**
++ Magnitude of **100 [N/m]**
++ Direction of **X**
++ Coordination System of **global**
 to a ``BarElement``:
 
 .. code-block:: cs
