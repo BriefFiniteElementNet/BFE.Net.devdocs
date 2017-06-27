@@ -4,22 +4,22 @@ UniformLoad
 
 Here are examples illustrated in image:
 
-.. image:: ../images/uload-body-bar.png
+.. image:: images/uload-body-bar.png
    :align: center
    
-.. image:: ../images/uload-body-tetra.png
+.. image:: images/uload-body-tetra.png
    :align: center
    
-.. image:: ../images/uload-body-triangle.png
+.. image:: images/uload-body-triangle.png
    :align: center
    
-.. image:: ../images/uload-edge-tetra.png
+.. image:: images/uload-edge-tetra.png
    :align: center
 
-.. image:: ../images/uload-edge-triangle.png
+.. image:: images/uload-edge-triangle.png
    :align: center
    
-.. image:: ../images/uload-face-tetra.png
+.. image:: images/uload-face-tetra.png
    :align: center
 
    
