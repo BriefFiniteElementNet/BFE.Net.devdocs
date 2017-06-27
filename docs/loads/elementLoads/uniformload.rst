@@ -4,26 +4,29 @@ UniformLoad
 
 Here are examples illustrated in image:
 
-.. image:: images/uload-body-bar.png
+.. figure:: images/uload-body-bar.png
    :align: center
-   
-.. image:: images/uload-body-tetra.png
-   :align: center
-   
-.. image:: images/uload-body-triangle.png
-   :align: center
-   
-.. image:: images/uload-edge-tetra.png
-   :align: center
+   ``UnformLoad`` applying on a ``BarElement``'s body
 
-.. image:: images/uload-edge-triangle.png
+   .. figure:: images/uload-body-triangle.png
    :align: center
+   ``UnformLoad`` applying on a ``TriangleElement``'s body
    
-.. image:: images/uload-face-tetra.png
+.. figure:: images/uload-body-tetra.png
    :align: center
+   ``UnformLoad`` applying on a ``TetrahedronElement``'s body
 
-   
-TODO with image (Bar triangle and tetrahedron elements having uniform load)
+.. figure:: images/uload-edge-triangle.png
+   :align: center
+   ``UnformLoad`` applying on one of a ``TriangleElement``'s edges
+
+.. figure:: images/uload-face-tetra.png
+   :align: center
+   ``UnformLoad`` applying on one of a ``TetrahedronElement``'s faces
+
+.. figure:: images/uload-edge-tetra.png
+   :align: center
+   ``UnformLoad`` applying on one of a ``TetrahedronElement``'s edges
 
 Magnitude
 ---------
