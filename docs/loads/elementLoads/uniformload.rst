@@ -1,9 +1,28 @@
 UniformLoad
 ============
-
 ``UniformLoad`` is a constant distributed load which can apply on 1D (like ``BarElement``), 2D (like ``TriangleElement``) or 3D (like ``TetrahedronElement``) elements. Self weight loads are good examples that can be modeled with this type of load.
 
 Here are examples illustrated in image:
+
+.. image:: ../images/uload-body-bar.png
+   :align: center
+   
+.. image:: ../images/uload-body-tetra.png
+   :align: center
+   
+.. image:: ../images/uload-body-triangle.png
+   :align: center
+   
+.. image:: ../images/uload-edge-tetra.png
+   :align: center
+
+.. image:: ../images/uload-edge-triangle.png
+   :align: center
+   
+.. image:: ../images/uload-face-tetra.png
+   :align: center
+
+   
 TODO with image (Bar triangle and tetrahedron elements having uniform load)
 
 Magnitude
@@ -19,14 +38,16 @@ Coordination System
 
 ``UniformLoad.CoordinationSystem`` which is a enum typed property of ``UniformLoad``, defines the coordination system of uniform load. It can only have two different values of ``CoordinationSystem.Global`` or ``CoordinationSystem.Local``:
 	- ``CoordinationSystem.Global``: The load is assumed in global coordination system
-	- ``CoordinationSystem.Global``: The load is assumed in local coordination system of element that load is applied to (each element type have different local coordination system which is stated in appropriated section)
- Look at examples section for more information on how to use.
+	- ``CoordinationSystem.Local``: The load is assumed in local coordination system of element that load is applied to (each element type have different local coordination system which is stated in appropriated section).
+
+Look at examples section for more information on how to use.
 
 Direction
 ---------
 
 ``UniformLoad.LoadDirection`` which is a enum typed property of ``UniformLoad``, defines the direction of uniform load. It can only have three different values of ``LoadDirection.X`` or ``LoadDirection.Y`` or ``LoadDirection.Z``.
  Look at examples section for more information on how to use.
+
 TODO: obsolete the enum LoadDirection and use a vector for more enhanced usage.
 
 Examples
@@ -34,14 +55,15 @@ Examples
 
 Example 1 (BarElement)
 ^^^^^^^^^^^^^^^^^^^^^^
+adding a ``UniformLoad`` with :
 
-- adding a ``UniformLoad`` with :
 + Magnitude of **100 [N/m]**
 + Direction of **X**
 + Coordination System of **global**
+
 to a ``BarElement``:
 
-.. code-block:: cs
+.. code-block:: c++
    
    var bar = new BarElement();			//creating new instance of element
    var load = new UniformLoad();		//creating new instance of load
@@ -57,13 +79,14 @@ TODO: Image
 Example 2 (BarElement)
 ^^^^^^^^^^^^^^^^^^^^^^
 
-- adding a ``UniformLoad`` with :
+adding a ``UniformLoad`` with :
 	- Magnitude of **100 [N/m]**
 	- Direction of **X**
 	- Coordination System of **local**
+
 to a ``BarElement``:
 
-.. code-block:: cs
+.. code-block:: c++
    
    var bar = new BarElement();			//creating new instance of element
    var load = new UniformLoad();		//creating new instance of load
@@ -79,13 +102,14 @@ TODO: Image to show load direction
 Example 3 (TriangleElement)
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-- adding a ``UniformLoad`` with :
+Adding a ``UniformLoad`` with :
 	- Magnitude of **100 [N/m]**
 	- Direction of **Z**
 	- Coordination System of **global**
+
 to a ``TriangleElement``:
 
-.. code-block:: cs
+.. code-block:: c++
    
    var bar = new TriangleElement();		//creating new instance of element
    var load = new UniformLoad();		//creating new instance of load

@@ -10,4 +10,8 @@ Elemental Loads
     nonuniformload
     uniformload
 	
-TODO: overview of elemental load
+ElementLoad is a base class that can only apply on the Element. There are several ``ElementLoad``s:
+
+- UniformLoad: A uniform load that can apply on a element or one of its faces or edges.
+- NonuniformLoad: TODO
+- ConcentratedLoad: TODO
