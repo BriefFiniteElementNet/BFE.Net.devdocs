@@ -6,21 +6,26 @@ The possible behaviours for the BarElement is:
 - ``BarElementBehaviour.EulerBernoulyBeamY`` : Beam in Y direction based on Euler-Bernouly theory. DoFs are shown in below image:
 .. figure:: ../images/bar-b1.png
    :align: center
+   
    DoFs of ``BarElementBehaviour.EulerBernoulyBeamY``
 - ``BarElementBehaviour.EulerBernoulyBeamZ`` : Beam in Z direction based on Euler-Bernouly theory. DoFs are shown in below image:
-.. image:: ../images/bar-b2.png
+.. figure:: ../images/bar-b2.png
    :align: center
+   
 - ``BarElementBehaviour.TimoshenkoBeamY`` : Beam in Y direction based on Timoshenko's theory (shear deformation). DoFs are shown in below image:
-.. image:: ../images/bar-b1.png
+.. figure:: ../images/bar-b1.png
    :align: center
+   
 - ``BarElementBehaviour.TimoshenkoBeamZ`` : Beam in Z direction based on Timoshenko's theory (shear deformation). DoFs are shown in below image:
-.. image:: ../images/bar-b2.png
+.. figure:: ../images/bar-b2.png
    :align: center
+   
 - ``BarElementBehaviour.Truss`` : Only axial load carrying. DoFs are shown in below image:
-.. image:: ../images/bar-truss.png
+.. figure:: ../images/bar-truss.png
    :align: center
+   
 - ``BarElementBehaviour.Shaft`` : Only torsional moment carrying. DoFs are shown in below image:
-.. image:: ../images/bar-shaft.png
+.. figure:: ../images/bar-shaft.png
    :align: center
 
 These behaviours can be combined, for example a truss member should only have a Truss behaviour, but a 3d frame member does have two beam behaviour in Y and Z directions, a truss behaviour and a shaft behaviour, (all these behaviours at the same time).
