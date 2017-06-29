@@ -28,7 +28,7 @@ The possible behaviours for the BarElement is:
 .. figure:: ../images/bar-shaft.png
    :align: center
 
-These behaviours can be combined, for example a truss member should only have a Truss behaviour, but a 3d frame member does have two beam behaviour in Y and Z directions, a truss behaviour and a shaft behaviour, (all these behaviours at the same time).
+These behaviours can be combined , for example a truss member should only have a Truss behaviour, but a 3d frame member does have two beam behaviour in Y and Z directions, a truss behaviour and a shaft behaviour, (all these behaviours at the same time).
  
 This is an example which makes a BarElement with truss behaviour which in real acts as a truss member that only can carry axial load:
 
