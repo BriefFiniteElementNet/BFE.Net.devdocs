@@ -1,12 +1,5 @@
 UniformLoad
 ============
-
-.. toctree::
-    :titlesonly:
-    :hidden:
-    :maxdepth: 2
-
-	
 ``UniformLoad`` is a constant distributed load which can apply on 1D (like ``BarElement``), 2D (like ``TriangleElement``) or 3D (like ``TetrahedronElement``) elements. Self weight loads are good examples that can be modeled with this type of load.
 
 Here are examples illustrated in image:
@@ -94,8 +87,8 @@ TODO: Image
 
 Example 2 (BarElement)
 ^^^^^^^^^^^^^^^^^^^^^^
-
 Adding a ``UniformLoad`` with :
+
 	- Magnitude of **100 [N/m]**
 	- Direction of **X**
 	- Coordination System of **local**
@@ -117,8 +110,8 @@ TODO: Image to show load direction
 
 Example 3 (TriangleElement)
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
 Adding a ``UniformLoad`` with :
+
 	- Magnitude of **100 [N/m]**
 	- Direction of **Z**
 	- Coordination System of **global**
