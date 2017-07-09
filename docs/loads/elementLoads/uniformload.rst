@@ -51,13 +51,21 @@ Coordination System
 
 Look at examples section for more information on how to use.
 
-Direction
----------
+LoadDirection (Obsolete: see Direction)
+-------------
 ``UniformLoad.LoadDirection`` which is a enum typed property of ``UniformLoad``, defines the direction of uniform load. It can only have three different values of ``LoadDirection.X`` or ``LoadDirection.Y`` or ``LoadDirection.Z``.
 
 Look at examples section for more information on how to use.
 
 TODO: obsolete the enum LoadDirection and use a vector for more enhanced usage.
+
+
+Direction
+-------------
+``UniformLoad.Direction`` which is a property of ``UniformLoad`` with type of ``Vector``, defines the direction of uniform load. An instance of ``Vector`` class defines a vector in 3d space with three components of ``X``, ``Y`` and ``Z``. Note that length of vector is not takken into account, only its direction is used.
+
+Look at examples section for more information on how to use.
+
 
 Examples
 --------
@@ -67,7 +75,7 @@ Example 1 (BarElement)
 Adding a ``UniformLoad`` with :
 
 + Magnitude of **100 [N/m]**
-+ Direction of **X**
++ Direction of **Z**
 + Coordination System of **global**
 
 to a ``BarElement``:
@@ -77,7 +85,7 @@ to a ``BarElement``:
    var bar = new BarElement();			//creating new instance of element
    var load = new UniformLoad();		//creating new instance of load
    load.Magnitude = 100;				//set Magnitude
-   load.Direction = LoadDirection.X;	//set direction
+   load.Direction = Vector.K;			//set direction
    load.CoordinationSystem = 
        CoordinationSystem.Global;		//set coord system
    
