@@ -1,4 +1,4 @@
-.. BarElement-InternalForce:
+.. _BarElement-InternalForce:
 
 Internal Force
 --------------

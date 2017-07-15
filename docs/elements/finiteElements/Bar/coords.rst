@@ -1,4 +1,4 @@
-.. BarElement-CoordinationSystems:
+.. _BarElement-CoordinationSystems:
 
 Coordination Systems
 --------------------

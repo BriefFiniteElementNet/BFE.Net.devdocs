@@ -1,4 +1,4 @@
-.. BarElement-ApplicableLoads:
+.. _BarElement-ApplicableLoads:
 
 Applicable Loads
 ----------------
