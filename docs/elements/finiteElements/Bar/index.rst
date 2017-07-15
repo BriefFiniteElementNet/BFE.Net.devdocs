@@ -5,7 +5,7 @@ Overview of ``BarElement``
 ----------
 A bar element is referred to an 1D element, which only have dimension in one direction:
 
-- It can act as frame, beam, truss or shaft by setting the ``BarElement.Behaviour`` property. (see :ref:BarElement-Behaviour)
+- It can act as frame, beam, truss or shaft by setting the ``BarElement.Behaviour`` property. (see :ref:`BarElement-Behaviour`)
 
 .. figure:: ../images/bar-fullframe.png
    :align: center

@@ -1,8 +1,6 @@
+.. _BarElement-Behaviour:
 Behaviours
 ----------
-
-.. _BarElement-Behaviour:
-
 ``BarElement.Behaviour`` property is an enum flag (enum flag  means an enum that can have several values at same time). It can be set to frame, beam, truss, shaft etc. 
 The possible behaviours for the BarElement is:
 
