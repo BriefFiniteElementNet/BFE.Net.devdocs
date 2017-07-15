@@ -1,3 +1,5 @@
+.. BarElement-InternalForce:
+
 Internal Force
 --------------
 After solving the ``Model``, ``BarElements`` will have some internal forces. Internal force at each location of element can be different and it can be catched with method ``BarElement.GetInternalForce``.

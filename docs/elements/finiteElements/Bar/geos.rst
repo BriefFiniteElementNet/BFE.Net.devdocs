@@ -1,3 +1,5 @@
+.. _BarElement-CrossSection:
+
 Cross Section
 -------------
 ``BarElement`` is modelled as a 1D element, and it needs to have geometrical values of it's cross section (like A, Iy, Iz, etc.). ``BarElement.CrossSection`` does define a cross section for ``BarElement``.

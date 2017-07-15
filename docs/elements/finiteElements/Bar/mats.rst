@@ -1,3 +1,5 @@
+.. _BarElement-Material:
+
 Material
 --------
 ``BarElement.Material`` property defines a material for this element.

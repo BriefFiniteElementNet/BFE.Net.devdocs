@@ -1,3 +1,5 @@
+.. BarElement-ApplicableLoads:
+
 Applicable Loads
 ----------------
 There are several loads currently applicable to ```BarElement```.
