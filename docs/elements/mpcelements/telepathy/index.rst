@@ -4,18 +4,17 @@ TelepathyLink
 
 .. hint:: all types of partiall connection of elements to nodes are able to be modeled with ``TelepathyLink``.
 
-Example:
-partiall end release of a 5 meter beam.
+Example 1 : partiall end release of a 5 meter beam
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-``
-var n1 = new Node(0,0,0);
-var n2 = new Node(0,0,0);
-var n3 = new Node(5,0,0);
+.. code-block:: cs
+  var n1 = new Node(0,0,0);
+  var n2 = new Node(0,0,0);
+  var n3 = new Node(5,0,0);
 
-var bar = new BarElement(n2,n3);
-var link = new TelepathyLink();
-link.UseForAllLoads = true;
-link.Nodes.Add(n1, n2);
-link.BindDx = link.BindDy = link.BindDz = true;
-link.BindRx = link.BindRy = link.BindRz = false;
-``
+  var bar = new BarElement(n2,n3);
+  var link = new TelepathyLink();
+  link.UseForAllLoads = true;
+  link.Nodes.Add(n1, n2);
+  link.BindDx = link.BindDy = link.BindDz = true;
+  link.BindRx = link.BindRy = link.BindRz = false;

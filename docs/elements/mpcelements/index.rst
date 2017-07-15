@@ -34,16 +34,15 @@ By defaults is empty, ``MpcElement`` will be applied when structure is analysing
 Example 1:
 An MpcElement (rigid element) which connect several nodes and only taken into account with loads with type of Eq.
 
-``
-var model = new Model();
+.. code-block:: cs
+  var model = new Model();
+  //TODO: Initaite nodes and elements
+  //Pseudu code:
+  // foreach roof:
+  //   make a rigid element, bind nodes in the roof's surface
+  //   set each rigid element's:
+  //     MpcElement.UseForAllLoads = false;
+  //     MpcElement.AppliedLoadTypes.Add(LoadType.Quake);
 
-//TODO: Initaite nodes and elements
-//Pseudu code:
-// foreach roof:
-//   make a rigid element, bind nodes in the roof's surface
-//   set each rigid element's:
-//     MpcElement.UseForAllLoads = false;
-//     MpcElement.AppliedLoadTypes.Add(LoadType.Quake);
-``
 In this model there are ``TODO`` number of roofs, that are only considered when Eq. loads are applied.
 
