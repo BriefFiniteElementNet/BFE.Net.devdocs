@@ -3,15 +3,25 @@ BarElement
 
 Overview of ``BarElement``
 ----------
-A bar element is referred to an 1D element, which only have dimension in one direction:
+A bar element is referred to an 1D element, which only have dimension in one direction. It's features in an quick overview:
 
 1. It can act as frame, beam, truss or shaft - see :ref:`BarElement-Behaviour` section.
 
-.. figure:: ../images/bar-fullframe.png
+|pic1| and |pic2|
+
+.. |pic1| figure:: ../images/bar-fullframe.png
    :align: center
+   :width: 45%
    
    DoFs of ``BarElement`` acting as a Frame
 
+.. |pic2| figure:: ../images/bar-truss.png
+   :align: center
+   :width: 45%
+   
+   DoFs of ``BarElement`` acting as a Truss
+   
+   
 2. It can have a cross section - see :ref:`BarElement-CrossSection` section.
 3. It can have a material - see :ref:`BarElement-Material` section.
 4. Several types of loads are possible to be apply on them - see :ref:`BarElement-ApplicableLoads` section.
