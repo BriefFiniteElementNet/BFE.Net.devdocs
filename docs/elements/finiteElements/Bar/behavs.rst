@@ -62,12 +62,15 @@ Which is exactly equal to:
 
 So better to use ``BarElementBehaviours`` unless needed manually define combination of behaviours.
 
-``BarElementBehaviours.FullBeam`` and ``BarElementBehaviours.FullBeamWithShearDefomation``: 
+- ``BarElementBehaviours.FullBeam`` and ``BarElementBehaviours.FullBeamWithShearDefomation``: 
 
 .. image:: ../images/bar-fullB.png
    :align: center
 
-``BarElementBehaviours.FullFrame`` and ``BarElementBehaviours.FullFrameWithShearDeformation``: 
+   DoFs of ``BarElementBehaviours.FullBeam`` and ``BarElementBehaviours.FullBeamWithShearDefomation``
+- ``BarElementBehaviours.FullFrame`` and ``BarElementBehaviours.FullFrameWithShearDeformation``: 
 
 .. image:: ../images/bar-fullframe.png
    :align: center
+
+   DoFs of ``BarElementBehaviours.FullFrame`` and ``BarElementBehaviours.FullFrameWithShearDeformation``
