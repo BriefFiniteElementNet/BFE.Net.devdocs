@@ -13,6 +13,10 @@ Parametric means that properties are parametrically defined (like ```UniformPara
 for example if we have a steel material, with E = 210 GPa, G = 80 GPa then:
 
 .. code-block:: cs
+
    var steelMaterial = new UniformParametricBarElementCrossSection();
    steelMaterial.E = 210e9;//210 * 10^9 Pas
    steelMaterial.G = 80e9;//80 * 10^9 Pas
+   
+   var bar = new BarElement();
+   bar.CrossSection = section;
