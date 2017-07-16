@@ -1,8 +1,8 @@
 BarElement
 ==========
 
-Overview of ``BarElement``
-----------
+Overview
+--------
 A bar element is referred to an 1D element, which only have dimension in one direction. It's features in an quick overview:
 
 1. It can act as frame, beam, truss or shaft - see :ref:`BarElement-Behaviour` section.

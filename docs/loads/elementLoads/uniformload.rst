@@ -1,6 +1,6 @@
 UniformLoad
 ============
-``UniformLoad`` is a constant distributed load which can apply on 1D (like ``BarElement``), 2D (like ``TriangleElement``) or 3D (like ``TetrahedronElement``) elements. Self weight loads are good examples that can be modeled with this type of load.
+``UniformLoad`` in namespace `` BriefFiniteElementNet.Loads``, is a constant distributed load which can apply on 1D (like ``BarElement``), 2D (like ``TriangleElement``) or 3D (like ``TetrahedronElement``) elements. Self weight loads are good examples that can be modeled with this type of load.
 
 Here are examples illustrated in image:
 
