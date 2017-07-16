@@ -1,5 +1,5 @@
-TriangleElement (NEW)
-=====================
+TriangleElementNEW
+==================
 
 Overview
 --------
