@@ -8,7 +8,7 @@ Finite Elements
 
     Bar/index
     Triangle/index
-	Triangle.NEW/index
+	TriangleNEW/index
     Tetrahedron/index
 	
 
