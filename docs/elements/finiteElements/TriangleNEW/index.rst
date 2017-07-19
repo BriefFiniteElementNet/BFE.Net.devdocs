@@ -21,10 +21,11 @@ A triangle element is referred to a 2D element, which only have dimension in two
    
    
 2. It can have a cross section - see :ref:`TriangleElement-CrossSection` section.
-3. It can have a material - see :ref:`TriangleElement-Material` section.
-4. Several types of loads are possible to be apply on them - see :ref:`TriangleElement-ApplicableLoads` section.
-5. It Does have a local coordination system, apart from global coordination system - see :ref:`TriangleElement-CoordinationSystems` section.
-6. It is possible to find internal force of it - see :ref:`TriangleElement-InternalForce` section.
+3. It can modeled as `PlaneStress <https://en.wikipedia.org/wiki/Plane_stress>` or `PlainStrain <https://en.wikipedia.org/wiki/Plane_stress>` - see :ref:`TriangleElement-MembraneFormulation` section.
+4. It can have a material - see :ref:`TriangleElement-Material` section.
+5. Several types of loads are possible to be apply on them - see :ref:`TriangleElement-ApplicableLoads` section.
+6. It Does have a local coordination system, apart from global coordination system - see :ref:`TriangleElement-CoordinationSystems` section.
+7. It is possible to find internal force of it - see :ref:`TriangleElement-InternalForce` section.
 
 .. toctree::
     :titlesonly:
