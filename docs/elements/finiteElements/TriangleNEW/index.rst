@@ -7,17 +7,17 @@ A triangle element is referred to a 2D element, which only have dimension in two
 
 1. It can act as thin shell, thick shell, plate bending or membrane - see :ref:`TrignaleElement-Behaviour` section.
 
-.. |pic1| figure:: ../images/bar-fullframe.png
+.. |pic1| figure:: ../images/tri-full.png
    :align: center
    :width: 45%
    
-   DoFs of ``BarElement`` acting as a Frame
+   DoFs of ``TriangleElement`` acting as a Shell
 
-.. |pic2| figure:: ../images/bar-truss.png
+.. |pic2| figure:: ../images/tri-membrane.png
    :align: center
    :width: 45%
    
-   DoFs of ``BarElement`` acting as a Truss
+   DoFs of ``TriangleElement`` acting as a Membrane
    
    
 2. It can have a cross section - see :ref:`TrignaleElement-CrossSection` section.

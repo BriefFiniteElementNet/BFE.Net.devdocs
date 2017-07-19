@@ -5,11 +5,21 @@ Behaviours
 ``TriangleElement.Behaviour`` property is an enum flag (enum flag  means an enum that can have several values at same time). It can be set to ThinShell, TODO etc. 
 The possible behaviours for the TriangleElement is:
 
-- ``BarElementBehaviour.EulerBernoulyBeamY`` : Beam in Y direction based on Euler-Bernouly theory. DoFs are shown in below image:
-.. figure:: ../images/bar-b1.png
+- ``TriangleElementBehaviour.Membrane`` : Membrane behaviour for in-plane displacement. DoFs are shown in below image:
+.. figure:: ../images/tri-membrane.png
    :align: center
    
-   DoFs of ``BarElementBehaviour.EulerBernoulyBeamY``
+   DoFs of ``TriangleElementBehaviour.PlateBending``
+- ``TriangleElementBehaviour.PlateBending`` : PlateBending behaviour for in-plane rotations and out of plane displacements. DoFs are shown in below image:
+.. figure:: ../images/tri-bending.png
+   :align: center
+   
+   DoFs of ``TriangleElementBehaviour.PlateBending``
+- ``TriangleElementBehaviour.DrillingDof`` : behaviour for out of plane rotations. DoFs are shown in below image:
+.. figure:: ../images/tri-drill.png
+   :align: center
+   
+   DoFs of ``TriangleElementBehaviour.DrillingDof``
    
 These behaviours can be combined , for example a Membrane member should only have a Membrane behaviour, but a thin shell member does have behaviour of platebending and a membrane behaviour (both at the same time).
  
@@ -39,13 +49,7 @@ So better to use ``TriangleElementBehaviours`` unless needed manually define com
 
 - ``TriangleElementBehaviours.ThinShell`` and ``TriangleElementBehaviours.ThickShell``: 
 
-.. image:: ../images/bar-fullB.png
+.. image:: ../images/tri-full.png
    :align: center
 
-   TODO IMAGE, DoFs of ``BarElementBehaviours.FullBeam`` and ``BarElementBehaviours.FullBeamWithShearDefomation``
-- ``BarElementBehaviours.FullFrame`` and ``BarElementBehaviours.FullFrameWithShearDeformation``: 
-
-.. image:: ../images/bar-fullframe.png
-   :align: center
-
-   TODO IMAGE, DoFs of ``BarElementBehaviours.FullFrame`` and ``BarElementBehaviours.FullFrameWithShearDeformation``
+   DoFs of ``TriangleElementBehaviours.ThinShell`` and ``TriangleElementBehaviours.ThickShell``
