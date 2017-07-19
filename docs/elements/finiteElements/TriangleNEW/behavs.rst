@@ -49,7 +49,7 @@ So better to use ``TriangleElementBehaviours`` unless needed manually define com
 
 - ``TriangleElementBehaviours.ThinShell`` and ``TriangleElementBehaviours.ThickShell``: 
 
-.. image:: ../images/tri-full.png
+.. figure:: ../images/tri-full.png
    :align: center
 
    DoFs of ``TriangleElementBehaviours.ThinShell`` and ``TriangleElementBehaviours.ThickShell``
