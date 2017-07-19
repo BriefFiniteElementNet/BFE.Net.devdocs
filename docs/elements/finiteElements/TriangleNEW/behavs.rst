@@ -1,4 +1,4 @@
-.. _TrignaleElement-Behaviour:
+.. _TriangleElement-Behaviour:
 
 Behaviours
 ----------

@@ -1,4 +1,4 @@
-.. _BarElement-InternalForce:
+.. _TriangleElement-InternalForce:
 
 Internal Force
 --------------

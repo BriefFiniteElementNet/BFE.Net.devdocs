@@ -1,4 +1,4 @@
-.. _TrignaleElement-Material:
+.. _TriangleElement-Material:
 
 Material
 --------
