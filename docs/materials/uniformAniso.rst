@@ -3,7 +3,7 @@ UniformAnisotropicMaterial
 
 Overview
 --------
-inherited from ``BaseMaterial``, this represents a *unifrom* and *anisotropic* material:
+inherited from ``BaseMaterial``, this represents a **unifrom** and **anisotropic** material:
 
 - **uniform** means material properties are not varying throught the element's body, or in every location of element material properties are identical.
 - **anisotropic** means having different mechanical properties in different directions

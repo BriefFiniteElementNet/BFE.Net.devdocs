@@ -4,7 +4,7 @@ UniformIsotropicMaterial
 Overview
 --------
 
-inherited from ``BaseMaterial``, this represents a *unifrom* and *isotropic* material:
+inherited from ``BaseMaterial``, this represents a **unifrom** and **isotropic** material:
 
 - **uniform** means material properties are not varying throught the element's body, or in every location of element material properties are identical.
 - **isotropic** means having identical values of a property in all directions
@@ -20,16 +20,34 @@ PoissonRatio
 static CreateFromYoungPoisson()
 -------------------------------
 Creates a new instance of ``UniformIsotropicMaterial`` using Young's Modulus and Poisson's Ratio.
-Example:
+
+Example 
+^^^^^^^
+Create steel material with:
+
+- Young's Modulus = 210 [GPa]
+- Poisson's Ratio = 0.3
+
+.. code-block:: cs
+
   var e = 210e9;//210 gpa
-  var nu = 0.2;
+  var nu = 0.3;
 
   var steelMat = UniformIsotropicMaterial.CreateFromYoungPoisson(e, nu);
   
 static CreateFromYoungShear()
 -----------------------------
 Creates a new instance of ``UniformIsotropicMaterial`` using Young's Modulus and Shear Modulus.
-Example:
+
+Example
+^^^^^^^
+Create steel material with:
+
+- Young's Modulus = 210 [GPa]
+- Shear Modulus = 79 [GPa]
+
+.. code-block:: cs
+
   var e = 210e9;//210 gpa
   var g = 79e9;//79 gpa
 
@@ -38,8 +56,17 @@ Example:
 static CreateFromShearPoisson()
 -------------------------------
 Creates a new instance of ``UniformIsotropicMaterial`` using Shear Modulus and Poisson's Ratio.
-Example:
+
+Example
+^^^^^^^
+Create steel material with:
+
+- Shear Modulus = 79 [GPa]
+- Poisson's Ratio = 0.3
+
+.. code-block:: cs
+
   var g = 79e9;//79 gpa
-  var nu = 0.2;
+  var nu = 0.3;
 
   var steelMat = UniformIsotropicMaterial.CreateFromShearPoisson(g, nu);

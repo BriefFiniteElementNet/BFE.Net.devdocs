@@ -9,7 +9,8 @@ All other cross sections of bar element are inherited from ``BaseBarElementCross
 UniformParametricBarElementCrossSection
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 Inherited from ``BaseBarElementCrossSection``, defines a uniform section for the ``BarElement``. Uniform section means that section does not change along the length of bar.
-Parametric means that properties are parametrically defined one by one. for example if we have a H section, with Iy = Iz = J = 1e-6 m^4, A = 2e-6 m^4 then:
+Parametric means that properties are parametrically defined one by one. 
+for example if we have a H section, with Iy = Iz = J = 1e-6 m^4, A = 2e-6 m^4 then:
 
 .. code-block:: cs
 
