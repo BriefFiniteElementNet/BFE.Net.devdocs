@@ -7,6 +7,6 @@ Materials Available
     :maxdepth: 2
 
     uniformIso
-    uniformOrtho
+    uniformAniso
 
 Material defines the mechanical properties of elements. Materials all are inherited from ``BaseMaterial``. 

@@ -4,7 +4,8 @@ UniformIsotropicMaterial
 Overview
 --------
 
-inherited from ``BaseMaterial``, this represents a *unifrom* and *isotropic* material.
+inherited from ``BaseMaterial``, this represents a *unifrom* and *isotropic* material:
+
 - **uniform** means material properties are not varying throught the element's body, or in every location of element material properties are identical.
 - **isotropic** means having identical values of a property in all directions
 
