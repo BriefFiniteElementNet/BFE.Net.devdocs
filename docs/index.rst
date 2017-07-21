@@ -10,7 +10,7 @@ Brief Finite Element .NET
     underconstruction
     elements/index
     loads/index
-    material/index
+    materials/index
     gettingstarted/index
 	
 
