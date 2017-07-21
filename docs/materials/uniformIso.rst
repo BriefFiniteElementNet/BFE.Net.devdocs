@@ -12,7 +12,7 @@ YoungModulus
 ------------
 ``UniformIsotropicMaterial.YoungModulus`` represents a value defining the `Young's Modulus <https://en.wikipedia.org/wiki/Young%27s_modulus>`_ (aka. elastic modulus). The dimension is standard SI unit [Pas].
 
-YoungModulus
+PoissonRatio
 ------------
 ``UniformIsotropicMaterial.PoissonRatio`` represents a value defining the `Poisson's ratio <https://en.wikipedia.org/wiki/Poisson%27s_ratio>`_. Poisson’s ratio is Dimensionless and has no SI unit.
 
