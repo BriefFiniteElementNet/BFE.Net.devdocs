@@ -1,44 +1,40 @@
 TriangleElement
-===============
+==================
 
-Triangle element is only area or surface element in BFE. It is consist of a CST (Constant Stress (and Strain) Triangle) element for in plane loads, and a DKT (Discrete Kirchhoff Triangle) element for carrying out off plane loads and moments and also an additional stiffness for drilling DoF.
+Overview
+--------
+A triangle element is referred to a 2D element, which only have dimension in two direction. It's features in an quick overview:
 
-DoFs
-----
-Triangle element in BFE does have three nodes, each one for a corner of triangle in 3D space. Each node have 6 DoFs in global coordination system.
+1. It can act as thin shell, thick shell, plate bending or membrane - see :ref:`TriangleElement-Behaviour` section.
 
-Properties
-----------
-The properties of Triangle element:
+.. |pic1| figure:: ../images/tri-full.png
+   :align: center
+   :width: 45%
+   
+   DoFs of ``TriangleElement`` acting as a Shell
 
-Mechanical Properties
----------------------
-- ``ElasticModulus``: Elastic Modulus measures in [Pascal] or [Pas]
-- ``PoissonRatio``: poisson ratio, in [0,0.5] range, dimension less
-	
-Geometrical Properties
-----------------------
-- ``Thickness``: Thickness of element, measures in [m] unit
-	
-Modelling properties
---------------------
-- ``Behavior``: Determines the behaviour of element, three possible values: (by default is ThinShell)
-		FlatShellBehaviour.ThinPlate: based on discrete Kirchhoff theory, only plate bending behaviour
-		FlatShellBehaviour.Membrane: The membrane, only in-plane forces, no moments. Only membrane behavior.
-		FlatShellBehaviour.ThinShell: The thin shell, based on discrete Kirchhoff theory, combination of Plate and Membrane
-		
-- ``MembraneFormulationType``: Determines the formulation type of membrane. only if Behaviour is either Membrane or ThinShell, then this property does taken into account. Two possible values:
-		MembraneFormulation.PlaneStress: plane stress situation
-		MembraneFormulation.PlaneStrain: plane strain situation
-	
-- ``AddDrillingDof``: neither DKT and CST elements does have stiffness in rotation DOF about element's local Z axis. If this is set to true, based on solution provided in ref[1], an additional stiffness in rotation DoF about local Z axis is added to element.
-	
-Notes
------
-	test
-	
-References
-----------
-ref[1] "Development of Membrane, Plate and Flat Shell Elements in Java" by Kaushalkumar Kansara available from https://theses.lib.vt.edu/theses/available/etd-05142004-234133/unrestricted/Thesis.pdf
+.. |pic2| figure:: ../images/tri-membrane.png
+   :align: center
+   :width: 45%
+   
+   DoFs of ``TriangleElement`` acting as a Membrane
+   
+   
+2. It can have a cross section - see :ref:`TriangleElement-CrossSection` section.
+3. It can modeled as `PlaneStress <https://en.wikipedia.org/wiki/Plane_stress>`_ or `PlainStrain <https://en.wikipedia.org/wiki/Plane_stress>`_ - see :ref:`TriangleElement-MembraneFormulation` section.
+4. It can have a material - see :ref:`TriangleElement-Material` section.
+5. Several types of loads are possible to be apply on them - see :ref:`TriangleElement-ApplicableLoads` section.
+6. It Does have a local coordination system, apart from global coordination system - see :ref:`TriangleElement-CoordinationSystems` section.
+7. It is possible to find internal force of it - see :ref:`TriangleElement-InternalForce` section.
 
-ref[2] "AN EXPLICIT FORMULATION FOR AN EFFICIENT TRIANGULAR PLATE-BENDING ELEMENT" by JEAN-LOUIS BATOZ
+.. toctree::
+    :titlesonly:
+    :hidden:
+    :maxdepth: 2
+
+    behavs
+    geos
+    mats
+    loads
+    coords
+    internalforces

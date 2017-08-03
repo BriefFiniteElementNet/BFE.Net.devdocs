@@ -17,6 +17,15 @@ PoissonRatio
 ------------
 ``UniformIsotropicMaterial.PoissonRatio`` represents a value defining the `Poisson's ratio <https://en.wikipedia.org/wiki/Poisson%27s_ratio>`_. Poisson’s ratio is Dimensionless and has no SI unit.
 
+Mass Density
+------------
+``UniformIsotropicMaterial.Rho`` represents a value defining the `Mass density <https://en.wikipedia.org/wiki/Mass_Density>`_. The dimension is standard SI unit [kg/m^3].
+
+Damp Density
+------------
+``UniformIsotropicMaterial.Mu`` represents a value defining the `Damp density <https://en.wikipedia.org/wiki/Damp_Density>`_. The dimension is standard SI unit [TODO].
+
+
 static CreateFromYoungPoisson()
 -------------------------------
 Creates a new instance of ``UniformIsotropicMaterial`` using Young's Modulus and Poisson's Ratio.
@@ -51,7 +60,7 @@ Create steel material with:
   var e = 210e9;//210 gpa
   var g = 79e9;//79 gpa
 
-  var steelMat = UniformIsotropicMaterial.CreateFromYoungShear(e, nu);
+  var steelMat = UniformIsotropicMaterial.CreateFromYoungShear(e, g);
   
 static CreateFromShearPoisson()
 -------------------------------

@@ -8,7 +8,6 @@ Finite Elements
 
     Bar/index
     Triangle/index
-    TriangleNEW/index
     Tetrahedron/index
 	
 
