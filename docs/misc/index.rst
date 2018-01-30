@@ -7,3 +7,5 @@ Miscellaneous
     :maxdepth: 2
 	
     loadcasecomb/index
+	
+This section contains miscellaneous items.
