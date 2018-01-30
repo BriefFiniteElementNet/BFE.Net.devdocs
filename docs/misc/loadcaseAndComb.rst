@@ -5,6 +5,11 @@ A ```LoadCase``` defines the group of loads. For example, in structure below the
    
    Model with three load types
    
+.. figure:: ../3d-frame-loadcomb.png
+   :align: center
+   
+   Model with three load types
+   
 A LoadCase have a nature (an enum type) and a title (with string type). LoadNature can be:
 ``Default``, ``Dead``, ``Live``, ``Snow``, ``Wind``, ``Quake``, ``Crane`` and ``Other``.
 
