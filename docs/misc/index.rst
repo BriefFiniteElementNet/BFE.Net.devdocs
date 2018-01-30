@@ -1,4 +1,9 @@
 Miscellaneous
 ###############
 
-    loadcase-and-comb.rst
+.. toctree::
+    :titlesonly:
+    :hidden:
+    :maxdepth: 2
+	
+    loadcase-and-comb
