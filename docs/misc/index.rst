@@ -6,4 +6,4 @@ Miscellaneous
     :hidden:
     :maxdepth: 2
 	
-    loadcase-and-comb
+    loadcasecomb/index
