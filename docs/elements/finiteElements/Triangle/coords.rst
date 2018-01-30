@@ -13,7 +13,9 @@ Relation of global and local system
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 local axis ``x`` is parallel with the point that connects ``node[0]`` to ``node[1]`` of element.
+
 local axis ``z`` is normal to triangle's surface.
+
 local axis ``y`` is normal to both ``x`` and ``z``.
 
 .. figure:: ../images/tri-coord.png
