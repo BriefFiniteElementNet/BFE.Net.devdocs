@@ -98,17 +98,20 @@ should pass to the appropriated method.
 For example to get internal force of bar element, this method should be called:
 
 .. code-block:: cs
+    
     BarElement.GetInternalForceAt(double x, LoadCombination combination);
 
 Or to get support reaction of a node, this method should be used:
 
 .. code-block:: cs
+    
     Node.GetSupportReaction(LoadCombination combination);
 
 A ```LoadCombination``` in a list of LoadCases with a multiplier for each one. Internally it does uses ```Dictionary<LoadCase,double>``` to keep the list. 
 For example if want to find support reaction for node n3 with loadCombination D + 0.8 L:
 
 .. code-block:: cs
+    
     var combination1 = new LoadCombination();// for D + 0.8 L
     combination1[d_case] = 1.0;
     combination1[l_case] = 0.8;
@@ -119,5 +122,6 @@ For example if want to find support reaction for node n3 with loadCombination D 
 or for finding internal force of ``e4`` element with combination ``D + 0.8 L`` at it's centre:
 
 .. code-block:: cs
+    
     var e4Force = (model.Elements["e4"] as BarElement).GetInternalForceAt(0, combination1);
     Console.WriteLine(e4Force);
