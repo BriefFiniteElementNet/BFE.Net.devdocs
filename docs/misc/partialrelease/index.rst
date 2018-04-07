@@ -3,7 +3,7 @@ LoadCase and LoadCombination
 
 A ```LoadCase``` defines the group of loads. For example, in structure below there is a "dead" load and a "live" load, and two "earthquake" loads, in X and Y direction:
 
-.. figure:: ../images/3d-frame-loadcomb.png
+.. figure:: ../../images/3d-frame-loadcomb.png
    :align: center
    
    Model with 4 type of load

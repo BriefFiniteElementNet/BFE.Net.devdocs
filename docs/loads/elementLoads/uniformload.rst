@@ -64,7 +64,7 @@ Direction
 -------------
 ``UniformLoad.Direction`` which is a property of ``UniformLoad`` with type of ``Vector``, defines the direction of uniform load. An instance of ``Vector`` class defines a vector in 3d space with three components of ``X``, ``Y`` and ``Z``. Note that length of vector is not takken into account, only its direction is used.
 
-Look at examples section for more information on how to use.
+Look at examples section and definition of local CoordinationSystem in BarElement, TriangleElement, etc. for more information on how to use.
 
 
 Examples
