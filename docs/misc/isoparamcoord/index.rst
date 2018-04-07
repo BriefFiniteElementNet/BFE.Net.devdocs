@@ -6,5 +6,5 @@ Apart from local and global coordination systems for elements, there is another 
 Iso Parametric Coordination system for BarElement with two nodes
 **************
 
-.. figure:: ../images/bar-iso-coord.png.png
+.. figure:: ../images/bar-iso-coord.png
    :align: center
