@@ -1,2 +1,2 @@
-Partial end release of elements
+Partial End Release Of Elements
 ############
