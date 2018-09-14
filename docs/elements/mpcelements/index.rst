@@ -7,8 +7,7 @@ MPC Elements
     :maxdepth: 2
 
     rigid/index
-    telepathy/index
-	vconstraint/index
+    vconstraint/index
 	
 MPC elements or Multi-Point Constraint elements, are kind of virtual elements that binds several DoFs of a model together and reduces the overall number of independent DoFs using technique MPC (Multi-Point Constraints) and Master/Slave model. All MPC elements are inherited from ``BriefFiniteElement.Elements.MpcElement'.
 

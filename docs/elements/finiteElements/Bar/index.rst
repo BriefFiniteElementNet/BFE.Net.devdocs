@@ -25,6 +25,7 @@ A bar element is referred to an 1D element, which only have dimension in one dir
 4. Several types of loads are possible to be apply on them - see :ref:`BarElement-ApplicableLoads` section.
 5. It Does have a local coordination system, apart from global coordination system - see :ref:`BarElement-CoordinationSystems` section.
 6. It is possible to find internal force of it - see :ref:`BarElement-InternalForce` section.
+7. It can connect to nodes regarding partial fixity conditions - see :ref:`_BarElement-PartialEndRelease` section.
 
 .. toctree::
     :titlesonly:
@@ -37,3 +38,4 @@ A bar element is referred to an 1D element, which only have dimension in one dir
     loads
     coords
     internalforces
+    pendrelease
