@@ -7,7 +7,7 @@ Miscellaneous
     :maxdepth: 2
 	
     loadcasecomb/index
-    partialrelease/index
     isoparamcoord/index
-	
+    inclinedframe/index
+
 This section contains miscellaneous items.
