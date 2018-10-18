@@ -4,6 +4,7 @@ Internal Force And Displacement
 --------------
 After solving the ``Model``, ``BarElement``s will have some internal forces. Internal force at each location of element can be different and it can be retrieved with method ``BarElement.GetInternalForceAt`` and ``BarElement.GetExactInternalForceAt``. The difference between ``BarElement.GetInternalForce`` and ``BarElement.GetExactInternalForce`` is that 
 ``BarElement.GetInternalForceAt`` only consider nodal displacement for internal force but Exact one (``GetExactInternalForceAt``) also considers effect of elemental loads (like distributed loads) in element in addition to nodal displacements. Internal force means 3 forces and 3 moments: axial load, two shear loads, torque moment and two biaxial moments which are shown in picture:
+
 .. figure:: ../images/barinternalforce.png
    :align: center
 
