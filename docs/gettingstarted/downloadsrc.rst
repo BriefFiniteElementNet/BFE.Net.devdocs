@@ -4,8 +4,6 @@ To download the source code there are three ways:
 
 2. **Direct download source code**
 
-3. **Use Nuget package** (not still ready!)
-
 First way (using git client) is suggested as you have more control over source code and can keep source code sync with the latest source code on [github.com](https;//www.github.com).
 
 
@@ -26,11 +24,13 @@ in next window, on the source location insert the git location of source code, t
 
 .. figure:: ../images/git-address.png
    :align: center
+
 by the way currently it is:
 ``https://github.com/BriefFiniteElementNet/BFE.Net.git``
 paste it into source location.
 
 in destination location type the folder you want the source code be downloaded into, note that this folder will be created with git client and should not exists, and finally click clone:
+
 .. figure:: ../images/git-src-dst.png
    :align: center
 
@@ -45,7 +45,3 @@ From project main page in github.com click ``clone or download`` button then cli
 
 .. figure:: ../images/direct-download-src.png
    :align: center
-
-Use Nuget package
-#################
-the nuget package is not ready yet, please use other ways.
