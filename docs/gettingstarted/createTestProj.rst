@@ -5,12 +5,20 @@ After downloading the source code you should reference the main projects of bfe 
 we will use Visual Studio 2015 in next. you can use any version of Visual Studio IDE including free express or community version. by the way it is downloadable from ``https://visualstudio.microsoft.com/``.
 In next we will use visual Studio 2015...
 
-After installation, Create a new C# application ([More Info](https://docs.microsoft.com/en-us/visualstudio/ide/creating-solutions-and-projects?view=vs-2017)) named ``BfeTestApplication``.
+Creating new project
+--------------------
+
+After installation, Create a new C# application with name ``BfeTestApplication`` and type ``Console Application`` (`More Info <https://docs.microsoft.com/en-us/visualstudio/ide/creating-solutions-and-projects?view=vs-2017>`_).
 
 .. figure:: ../images/vs-new-proj.png
    :align: center
 
-then to add BFE code to your solution, do the following:
+Add BFE codes (projects) into solution
+--------------------------------------
+
+You should add reference to actual BFE code into your new project. (`More Info <https://docs.microsoft.com/en-us/sql/ssms/solution/add-an-existing-project-to-a-solution?view=sql-server-2017>`_).
+
+To add BFE code to your solution, do the following:
 
 1- In Solution Explorer, select the solution. 
 
@@ -40,7 +48,10 @@ after adding two projects, solution explorer tab in visual studio should looks l
 .. figure:: ../images/vs-slnexpl-1.png
    :align: center
 
-Now two C# projects ``BriefFiniteElementNet`` and ``BriefFiniteElementNet.Common`` are added to our solution. next we should add a reference of each one into first project named ``BfeTestApplication`` ([More Info](https://msdn.microsoft.com/en-us/library/wkze6zky.aspx)):
+Add reference of BFE projects into first project
+------------------------------------------------
+
+Now two C# projects ``BriefFiniteElementNet`` and ``BriefFiniteElementNet.Common`` are added to our solution. next we should add a reference of each one into first project named ``BfeTestApplication`` (`More Info <https://msdn.microsoft.com/en-us/library/wkze6zky.aspx>`_).
 
 .. figure:: ../images/vs-slnexpl-addref1.png
    :align: center
@@ -102,7 +113,7 @@ finally it should look like:
 .. figure:: ../images/vs-prgcs-codes.png
    :align: center
    
-then we start debug by pressign F5 key or "Debug" menu, then "Start Debugging". console window should show up like this:
+Then we start debug by pressign F5 key or "Debug" menu, then "Start Debugging". console window should show up like this:
 
 .. figure:: ../images/testapp-console.png
    :align: center
