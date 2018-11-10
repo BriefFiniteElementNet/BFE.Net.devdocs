@@ -1,5 +1,5 @@
 Miscellaneous
-***************
+#############
 
 Introduction (What is BFE.NET)
 =============================
