@@ -1,3 +1,6 @@
+Download source code of BriefFiniteElement.NET library
+======================================================
+
 To download the source code there are three ways:
 
 1. **Use git client**
@@ -8,7 +11,7 @@ First way (using git client) is suggested as you have more control over source c
 
 
 Using Git Client to Download the Source Code
-##############################################
+-------------------------------------------
 
 We will use git for windows client over download the code. download and install client from [this link](https://gitforwindows.org/). After installation open the git-gui from either installed location or start menu:
 
@@ -40,7 +43,8 @@ then wait until download finishes. Only note that use latest version of git clie
    :align: center
    
 Direct download source code
-###########################
+---------------------------
+
 From project main page in github.com click ``clone or download`` button then click ``download zip``:
 
 .. figure:: ../images/direct-download-src.png
