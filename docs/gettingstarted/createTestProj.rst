@@ -8,12 +8,17 @@ After installation, Create a new C# application ([More Info](https://docs.micros
    :align: center
 
 then to add BFE code to your solution, do the following:
+
 1- In Solution Explorer, select the solution. 
+
 2- On the File menu, point to Add, and click Existing Project.
+
 3- In the Add Existing Project dialog box, locate the project you want to add, select the project file, and then click Open.
 
 you should add two projects to your solution:
+
 1- BriefFiniteElementNet located at ``<root folder>\BriefFiniteElementNet\BriefFiniteElementNet.csproj``
+
 2- BriefFiniteElementNet.Common located at ``<root folder>\BriefFiniteElementNet.Common\BriefFiniteElementNet.Common.csproj``
 
 adding two projects,
@@ -91,7 +96,7 @@ also add two ``using`` directives on top of file:
 
 finally it should look like:
 
-.. figure:: ../images/vs-prgcs-code.png
+.. figure:: ../images/vs-prgcs-codes.png
    :align: center
    
 then we start debug by pressign F5 key or "Debug" menu, then "Start Debugging". console window should show up like this:
