@@ -16,7 +16,7 @@ After installation, Create a new C# application with name ``BfeTestApplication``
 Add BFE codes (projects) into solution
 --------------------------------------
 
-You should add reference to actual BFE code into your new project. (`More Info <https://docs.microsoft.com/en-us/sql/ssms/solution/add-an-existing-project-to-a-solution?view=sql-server-2017>`_).
+You should add the actual BFE core codes into your solution. (`More Info <https://docs.microsoft.com/en-us/sql/ssms/solution/add-an-existing-project-to-a-solution?view=sql-server-2017>`_).
 
 To add BFE code to your solution, do the following:
 
@@ -58,6 +58,9 @@ Now two C# projects ``BriefFiniteElementNet`` and ``BriefFiniteElementNet.Common
    
 .. figure:: ../images/vs-addref2.png
    :align: center
+
+Start Coding with BFE
+---------------------
 
 Now things are ready to start coding. Open the ``Program.cs`` file in project ``BfeTestApplication`` inside Visual Studio, it should be something like this:
 
