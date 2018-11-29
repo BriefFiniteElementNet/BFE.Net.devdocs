@@ -9,6 +9,6 @@ Examples
     loadcasecomb/index
     isoparamcoord/index
     inclinedframe/index
-	truss3d/index
+    truss3d/index
 
 This section contains example items.
