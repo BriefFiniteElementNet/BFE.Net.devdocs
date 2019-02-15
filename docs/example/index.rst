@@ -10,5 +10,6 @@ Examples
     isoparamcoord/index
     inclinedframe/index
     truss3d/index
+    UniformLoadCoordSystem/index
 
 This section contains example items.

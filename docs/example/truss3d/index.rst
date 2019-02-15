@@ -1,5 +1,5 @@
-Small 3D Truss
-##############
+Example 1: Small 3D Truss
+#########################
 
 In this example, I want to analyse a simple truss with 4 members as shown in figure.
 
@@ -8,30 +8,39 @@ In this example, I want to analyse a simple truss with 4 members as shown in fig
 
 All members sections are the same, a square steel section with dimension of 3 cm. So the properties of members will be:
 
-``E = 210 GPa = 210*10^9 Pa = 210*10^9 N/M^2``
+The area of SECTION:
 
-``A = 0.03m * 0.03m = 9 * 10^-4 m^2``
 
-``Poison Ratio = 0.3``
+  ``A = 0.03m * 0.03m = 9 * 10^-4 m^2``
 
-Please note that for truss memebr usually Poison ratio is not taken into account anywhere in calculation, so settings it to any value in ``(0,1)`` range will not change the result. So better to assume a usual value of 0.3 for it.
+The `Elastic or Young Modulus <https://en.wikipedia.org/wiki/Young%27s_modulus>`_ of MATERIAL:
 
-We should do 5 steps before we solve the model:
 
-- Create Model, Members and Nodes.
+   ``E = 210 GPa = 210*10^9 Pa = 210*10^9 N/M^2``
 
-- Add the Nodes and Elements to Model.
+The `Poison Ratio <https://en.wikipedia.org/wiki/Poisson%27s_ratio>`_ of MATERIAL:
 
-- Assign geometrical and mechanical properties to Elements.
 
-- Assign Constraints to Nodes (fix the DoF s).
+   ``? = 0.3``
 
-- Assign Load to Node.
+Please note that for truss memeber usually Poison ratio is not taken into account anywhere in calculation, so settings it to any value in ``(0,0.5)`` range will not change any part of the result, but setting to zero maybe cause some problem! so better to assume a usual value of 0.3 for it.
+
+We should do these steps before we solve the model:
+
+- Step1: Create Model, Members and Nodes.
+
+- Step2: Add the Nodes and Elements to Model.
+
+- Step3: Assign geometrical and mechanical properties to Elements.
+
+- Step4: Assign Constraints to Nodes (fix the DoF s).
+
+- Step5: Assign Load to Node.
 
 And finally solve model with Model.Solve() method and then extract analysis results like support reactions or member internal forces or nodal deflections.
 
-Creating Model
-**************
+Step1: Create Model, Members and Nodes
+***************************************
 
 We should create a Finite Element model first and then add members and nodes to it:
 
@@ -41,7 +50,7 @@ We should create a Finite Element model first and then add members and nodes to 
     var model = new Model();
 	
 Creating Nodes
-**************
+==============
 
 We should create nodes like this. In BriefFiniteElement.NET, every node and element have a property of type string named Label and another one named Tag both of which are inherited from BriefFiniteElementNet.StructurePart. In every Model, Label of every member should be unique among all members (both Nodes and Elements) unless the Label be equal to null which is by default. In the below code, we are creating 5 nodes of truss and assigning a unique Label to each one.
 
@@ -55,9 +64,9 @@ We should create nodes like this. In BriefFiniteElement.NET, every node and elem
 	var n5 = new Node(0, 0, 1) {Label = "n5"};
 
 Creating Elements
-*****************
+=================
 
-Next we have to create the elements. In BriefFiniteElement.NET, the TrussElement and BarElement classes do represents a truss element in 3D. As TrussElement is obsolete, we use BarElement:
+Next we have to create the elements. In BriefFiniteElement.NET, the TrussElement and BarElement classes do represents a truss element in 3D. As TrussElement is old and obsolete, we use BarElement:
 
 .. code-block:: cs
 
@@ -68,8 +77,8 @@ Next we have to create the elements. In BriefFiniteElement.NET, the TrussElement
 
 note that BarElement can be used as a frame too, so you should set the BarElement.Behavior to BarElementBehaviours.Truss in order to make it a truss member, else you will have a frame member instead of truss!
 
-Adding Nodes and Elements to Model
-**********************************
+Step2: Add the Nodes and Elements to Model.
+********************************************
 
 You can simply add the elements and nodes we created into the Model. Model has two members ``Model.Elements`` and ``Model.Nodes`` which both represents an ``IList<T>`` of nodes and members, plus an ``Add()`` method that accept several items:
 
@@ -80,8 +89,9 @@ You can simply add the elements and nodes we created into the Model. Model has t
 
 Please note that if Node or Element’s Label property is something else than null, then it should be unique among all nodes and elements, else you will receive an error when adding member with duplicated label into model.
 
-Assigning geometrical and mechanical properties to Elements
-**********************************************************
+
+Step3: Assign geometrical and mechanical properties to Elements
+*****************************************************************
 
 As elastic module for all members equals to 210 GPa and area of all members equals to 0.0009 m^2 we can set the element properties like this:
 
@@ -97,8 +107,8 @@ As elastic module for all members equals to 210 GPa and area of all members equa
 	e3.Material = Materials.UniformIsotropicMaterial.CreateFromYoungPoisson(210e9, 0.3);
 	e4.Material = Materials.UniformIsotropicMaterial.CreateFromYoungPoisson(210e9, 0.3);
 
-Assigning Constraint to Nodes to fix the DoFs
-*********************************************
+Step4: Assign Constraints to Nodes (fix the DoF s)
+**************************************************
 
 Now, we should make some DoFs of structure fix in order to make analysis logically possible.
 
@@ -131,8 +141,8 @@ and should fix the rotational DoFs of node 5:
 .. code-block:: cs
   n5.Constraints = Constraints.RotationFixed
   
-Assigning Loads to Nodes
-************************
+Step5: Assign Load to Node
+***************************
 
 In BriefFiniteElement.NET, there is a struct named Force which represent a concentrated force in 3D space which contains of 3 force components in X, Y and Z directions and three moment components in X, Y and Z directions. It have 6 double properties named Fx, Fy, Fz, Mx, My and Mz that are representing the load components. There are also two properties of type Vector for this struct named Forces and Moments. On setting or getting, they will use the Fx, Fy, Fz, Mx, My and Mz to perform operations:
 

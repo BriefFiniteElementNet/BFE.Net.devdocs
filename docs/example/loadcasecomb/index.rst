@@ -1,6 +1,7 @@
-LoadCase and LoadCombination
-############################
+Example 2: LoadCase and LoadCombination
+#######################################
 
+There are two concepts named LoadCase and LoadCombination in this library and many other softwares.
 A ```LoadCase``` defines the group of loads. For example, in structure below there is a "dead" load and a "live" load, and two "earthquake" loads, in X and Y direction:
 
 .. figure:: ../images/3d-frame-loadcomb.png
@@ -17,7 +18,17 @@ So there can be 4 LoadCases for this example:
 	- case 3: Nature = Quake, Title = "Qx"
 	- case 4: Nature = Quake, Title = "Qy"
 
-To make the model:
+We will do these steps before solving model:
+
+- Step1: Create Model, prepair and add Elements and Nodes
+
+- Step2: Assign Constraints to Nodes (fix the DoF s).
+
+- Step3: Assign Load to Node.
+
+Step1: Create Model, prepair and add Elements and Nodes
+=======================================================
+To make the model, elements and loads:
 
 .. code-block:: cs
     
@@ -57,22 +68,52 @@ To make the model:
     model.Elements.Add(new BarElement(model.Nodes["n7"], model.Nodes["n4"]) { Label = "e7", Section = sec, Material = mat });
     
     
-    
+Step2: Assign Constraints to Nodes (fix the DoF s)
+==================================================
+
+.. code-block:: cs
+
     model.Nodes["n0"].Constraints =
       model.Nodes["n1"].Constraints =
         model.Nodes["n2"].Constraints =
           model.Nodes["n3"].Constraints =
             Constraints.Fixed;
-    
+
+Step3: Assign load to nodes
+===========================
+This is main purpose of this example, the LoadCase and LoadCombination types. In framework every Load does have a property named ``LoadCase``. this LoadCase property will help us to distribute all Loads into groups. We want to do this because we should solve the model for each LoadCase separately. In this example we will create 4 load cases:
+
+1. a load case with name ``d1`` and load type of dead for dead loads on top horizontal elements
+ 
+2. a load case with name ``l1`` and load type of live for live loads on top horizontal elements
+ 
+3. a load case with name ``qx`` and load type of quake for 5kN concentrated force applied to ``n4`` node
+
+4. a load case with name ``qy`` and load type of quake for 10kN concentrated force applied to ``n4`` node
+
+.. code-block:: cs
+
     var d_case = new LoadCase("d1", LoadType.Dead);
     var l_case = new LoadCase("l1", LoadType.Dead);
-    var qx_case = new LoadCase("qx", LoadType.Dead);
-    var qy_case = new LoadCase("qy", LoadType.Dead);
-    
+    var qx_case = new LoadCase("qx", LoadType.Quake);
+    var qy_case = new LoadCase("qy", LoadType.Quake);
+
+Then we should create two distributed loads for top beams:
+
+.. code-block:: cs
+
     var d1 = new Loads.UniformLoad(d_case, -1 * Vector.K, 2e3, CoordinationSystem.Global);
     var l1 = new Loads.UniformLoad(l_case, -1 * Vector.K, 1e3, CoordinationSystem.Global);
-    
-    
+
+    var qx_f = new Force(5000 * Vector.I, Vector.Zero);
+    var qy_f = new Force(10000 * Vector.J, Vector.Zero);
+
+note that we've set the load case of these two loads by passing ``d_case`` and ``l_case`` into constructor of ``Loads.UniformLoad`` class.
+
+Next we will add ``d1`` and ``l1`` and two other nodal lo loads to all top elements. you should note that adding same load to more that one element is possible and will work like creating identical loads for each element.
+
+.. code-block:: cs        
+
     model.Elements["e4"].Loads.Add(d1);
     model.Elements["e5"].Loads.Add(d1);
     model.Elements["e6"].Loads.Add(d1);
@@ -82,17 +123,14 @@ To make the model:
     model.Elements["e5"].Loads.Add(l1);
     model.Elements["e6"].Loads.Add(l1);
     model.Elements["e7"].Loads.Add(l1);
-    
-    var qx_f = new Force(5000 * Vector.I, Vector.Zero);
-    var qy_f = new Force(10000 * Vector.J, Vector.Zero);
-    
+
     model.Nodes["n4"].Loads.Add(new NodalLoad(qx_f, qx_case));
     model.Nodes["n4"].Loads.Add(new NodalLoad(qy_f, qy_case));
     
     model.Solve_MPC();//no different with Model.Solve()
 
 
-all loads in BFE should inherit from NodalLoad or ElementLoad. Both of these loads have a property named LoadCase property of type ```LoadCase```. So every load in BFE will
+as said before, all loads in BFE should inherit from NodalLoad or ElementLoad. Both of these loads have a property named LoadCase property of type ```LoadCase```. So every load in BFE will
 have the LoadCase property. In other hand to get analysis result of model - like internal force on elements, or nodal displacements or support reactions - a parameter of type LoadCombination
 should pass to the appropriated method.
 For example to get internal force of bar element, this method should be called:
@@ -124,4 +162,4 @@ or for finding internal force of ``e4`` element with combination ``D + 0.8 L`` a
 .. code-block:: cs
     
     var e4Force = (model.Elements["e4"] as BarElement).GetInternalForceAt(0, combination1);
-    Console.WriteLine(e4Force);
+    Console.WriteLine(e4Force);or ds

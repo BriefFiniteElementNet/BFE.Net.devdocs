@@ -1,8 +1,9 @@
+.. _UniformLoad:
 UniformLoad
 ============
 ``UniformLoad`` in namespace `` BriefFiniteElementNet.Loads``, is a constant distributed load which can apply on 1D (like ``BarElement``), 2D (like ``TriangleElement``) or 3D (like ``TetrahedronElement``) elements. Self weight loads are good examples that can be modeled with this type of load.
 
-Here are examples illustrated in image:
+Here are examples illustrated in image (note that many of these loads are not available in this library!)
 
 .. figure:: images/uload-body-bar.png
    :align: center
@@ -42,6 +43,8 @@ Magnitude
 	- If it is applied on a 2D element like ``TriangleElement``, then the dimension is [N/m^2]
 	- If it is applied on a 3D element like ``TetrahedronElement``, then the dimension is [N/m^3]
 
+.. _UniformLoad-coordination-system:
+
 Coordination System
 -------------------
 ``UniformLoad.CoordinationSystem`` which is a enum typed property of ``UniformLoad``, defines the coordination system of uniform load. It can only have two different values of ``CoordinationSystem.Global`` or ``CoordinationSystem.Local``:
@@ -49,7 +52,7 @@ Coordination System
 	- ``CoordinationSystem.Global``: The load is assumed in global coordination system
 	- ``CoordinationSystem.Local``: The load is assumed in local coordination system of element that load is applied to (each element type have different local coordination system which is stated in appropriated section).
 
-Look at examples section for more information on how to use.
+Look at :ref:`_element-load-coordination-system` for more information on how to use.
 
 LoadDirection (Obsolete: see Direction)
 -------------
@@ -70,71 +73,6 @@ Look at examples section and definition of local CoordinationSystem in BarElemen
 Examples
 --------
 
-Example 1 (BarElement)
-^^^^^^^^^^^^^^^^^^^^^^
-Adding a ``UniformLoad`` with :
+Related Examples:
 
-+ Magnitude of **100 [N/m]**
-+ Direction of **Z**
-+ Coordination System of **global**
-
-to a ``BarElement``:
-
-.. code-block:: c++
-   
-   var bar = new BarElement();			//creating new instance of element
-   var load = new UniformLoad();		//creating new instance of load
-   load.Magnitude = 100;				//set Magnitude
-   load.Direction = Vector.K;			//set direction
-   load.CoordinationSystem = 
-       CoordinationSystem.Global;		//set coord system
-   
-   bar.Loads.Add(load);					//apply load to element
-
-TODO: Image
-
-Example 2 (BarElement)
-^^^^^^^^^^^^^^^^^^^^^^
-Adding a ``UniformLoad`` with :
-
-	- Magnitude of **100 [N/m]**
-	- Direction of **X**
-	- Coordination System of **local**
-
-to a ``BarElement``:
-
-.. code-block:: c++
-   
-   var bar = new BarElement();			//creating new instance of element
-   var load = new UniformLoad();		//creating new instance of load
-   load.Magnitude = 100;				//set Magnitude
-   load.Direction = LoadDirection.X;	//set direction
-   load.CoordinationSystem = 
-       CoordinationSystem.Local;		//set coord system
-   
-   bar.Loads.Add(load);					//apply load to element
-
-TODO: Image to show load direction
-
-Example 3 (TriangleElement)
-^^^^^^^^^^^^^^^^^^^^^^^^^^^
-Adding a ``UniformLoad`` with :
-
-	- Magnitude of **100 [N/m]**
-	- Direction of **Z**
-	- Coordination System of **global**
-
-to a ``TriangleElement``:
-
-.. code-block:: c++
-   
-   var bar = new TriangleElement();		//creating new instance of element
-   var load = new UniformLoad();		//creating new instance of load
-   load.Magnitude = 100;				//set Magnitude
-   load.Direction = LoadDirection.Z;	//set direction
-   load.CoordinationSystem = 
-       CoordinationSystem.Global;		//set coord system
-   
-   bar.Loads.Add(load);					//apply load to element
-
-TODO: Image to show load direction
++ :ref:`_element-load-coordination-system`

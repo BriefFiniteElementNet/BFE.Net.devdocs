@@ -1,7 +1,11 @@
 Inclined Frame Example
 ######################
+
 Consider the inclined frame shown in fig below.
 
+.. figure:: ../images/incliend-frame.png
+   :align: center
+   
 There are two loads on top elements. One has a 6 kn/m magitude and its direction is vertical, another one has 5kn/m magnitude and it is perpendicular to the `e2` element.
 
 
