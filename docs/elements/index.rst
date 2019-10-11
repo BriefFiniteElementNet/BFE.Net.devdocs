@@ -6,5 +6,5 @@ Elements Available
     :hidden:
     :maxdepth: 2
 
-    iEleHlprStfComp
-    matrixpool
+    finiteElements/index
+    mpcelements/index

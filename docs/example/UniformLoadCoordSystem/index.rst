@@ -1,6 +1,6 @@
 .. _element-load-coordination-system:
 
-Example 5: Element Load Coordination System Example
+Element Load Coordination System Example
 ########################################
 
 The `Loads.UniformLoad` have a property named ``CoordinationSystem`` of enum type `BriefFiniteElementNet.CoordinationSystem` which defines the coordination system of load (for more info see :ref:_UniformLoad-coordination-system).

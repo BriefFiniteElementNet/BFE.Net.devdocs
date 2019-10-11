@@ -1,4 +1,4 @@
-Example 3: Inclined Frame Example
+Inclined Frame Example
 ######################
 
 Consider the inclined frame shown in fig below.
