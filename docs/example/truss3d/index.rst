@@ -1,4 +1,4 @@
-Example 1: Small 3D Truss
+Small 3D Truss Example
 #########################
 
 In this example, I want to analyse a simple truss with 4 members as shown in figure.

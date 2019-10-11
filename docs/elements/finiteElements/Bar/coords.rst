@@ -35,4 +35,34 @@ TODO: Image
 
 the result system is local system of bar element.
 
+Iso Parametric Coordination System
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Apart from local and global coordination systems for elements, there is another system based on isoparametric formulation/representation, which is used extensively in finite element method. In BFE also in many places instead of local coordinate system, the iso parametric coordination is used.
+
+Iso Parametric Coordination system for BarElement with two nodes
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+.. figure:: ../images/bar-iso-coord.png
+   :align: center
+   
+   
+Based on 
+   
+- At the beginning point of the element, where `x=0` the iso parametric coordinate is `ξ=-1`
+
+- At the central point of the element, where `x=L/2`, and L is length of elements, the iso parametric coordinate is `ξ=0`
+
+- At the end point of the element, where `x=L`, and L is length of elements, the iso parametric coordinate is `ξ=1`
+
+In bar element with two nodes the relation between isoparamtric `ξ` coordinate and local `x` coordinate is:
+
+``x = (ξ + 1)*L/2``
+and subsequently
+
+``ξ = (2*x-L)/L``
+
+Iso Parametric Coordination system for BarElement with more than two nodes
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+There is no simple formula to show relation of ξ and x in elements with more than two nodes, but there is a method for conversion between local coordinate system and isoparametric coordination system ``BarElement.LocalCoordsToIsoCoords`` and ``BarElement.IsoCoordsToLocalCoords`` which works right with any number of node. As this method is defined in base ``Element`` class, input and output of these is double array, but as BarElement is one dimensional element, then only first member of array have value and that is X or ξ.
+
 ref[1]: Finite Element Analysis: Theory and Programming by by C Krishnamoorthy p.243

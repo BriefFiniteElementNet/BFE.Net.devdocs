@@ -1,5 +1,7 @@
-Example 2: LoadCase and LoadCombination
+LoadCase and LoadCombination Example
 #######################################
+
+In Finite Element, there is a thing named Force or Load. Also there are 
 
 There are two concepts named LoadCase and LoadCombination in this library and many other softwares.
 A ```LoadCase``` defines the group of loads. For example, in structure below there is a "dead" load and a "live" load, and two "earthquake" loads, in X and Y direction:

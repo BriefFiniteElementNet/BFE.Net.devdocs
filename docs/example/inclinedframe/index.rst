@@ -1,4 +1,4 @@
-Inclined Frame Example
+Example 3: Inclined Frame Example
 ######################
 
 Consider the inclined frame shown in fig below.
@@ -70,15 +70,30 @@ There are two loads on top elements. One has a 6 kn/m magitude and its direction
 
 **step 6:** get analysis results
 
+Usually aim of analysis is to find some quantities like internal force and nodal displacements.
+After solving the model we can find nodal displacements with `Node.GetNodalDisplacement`, and ``BarElement``'s internal force with ``BarELement.GetInternalForceAt`` and ``BarElement.GetExactInternalForceAt`` methods. There is a difference between the two methods. Details are available in :ref:`BarElement-InternalForce` section in documentation of `BarElement`.
+
+for example the support reaction of node `N3` can be found and printed to application Console like this:
+
 .. code-block:: cs
 
 	var n3Force = model.Nodes["N3"].GetSupportReaction();
-	Console.WriteLine("support reaction of n3: {0}", n3Force);
-	var x = 1.0;
+	Console.WriteLine("Support reaction of n4: {0}", n3Force);
+    
+This is the result of print on console:
+
+Support reaction of n4: F: -37514.9891729259, 0, 51261.532772234, M: 0, -97714.6039503916, 0
+
+Element's internal force can be found like this:
+For example need to find internal force of element in a point with distance of 1m (one meter) of start node.
+We can use `BarElement.GetInternalForceAt()` method to simply get the internal force of element at desired location of length of element, but there is an important thing here:
+and that is the input of `BarElement.GetInternalForceAt()` method is not in meter dimension not any other standard units of measuring length. The input is in another coordination system named iso-parametric crs. The isoparametric crs is widely used in FEM. More details about  BarElement does have a method for converting 
+
+.. code-block:: cs
+	var x = 1.0;//need to find internal force at x = 1.0 m
 	var iso = (model.Elements["e3"] as BarElement).LocalCoordsToIsoCoords(x);
 	var e4Force = (model.Elements["e3"] as BarElement).GetInternalForceAt(iso[0]);
 	Console.WriteLine("internal force at x={0} is {1}", x, e4Force);
-            
-            
+
 
 whole source code exists in the `BarIncliendFrameExample.cs` file.
