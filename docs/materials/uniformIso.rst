@@ -47,6 +47,7 @@ Create steel material with:
 static CreateFromYoungShear()
 -----------------------------
 Creates a new instance of ``UniformIsotropicMaterial`` using Young's Modulus and Shear Modulus.
+Poisson's ratio is calculated based on this formula: `G = E / (2*(1-nu))` then: `nu = e/(2*G) - 1` 
 
 Example
 ^^^^^^^
@@ -65,6 +66,7 @@ Create steel material with:
 static CreateFromShearPoisson()
 -------------------------------
 Creates a new instance of ``UniformIsotropicMaterial`` using Shear Modulus and Poisson's Ratio.
+Elastic modulus is calculated based on this formula: `G = E / (2*(1-nu))` then: `E = G * (2*(1-nu))` 
 
 Example
 ^^^^^^^

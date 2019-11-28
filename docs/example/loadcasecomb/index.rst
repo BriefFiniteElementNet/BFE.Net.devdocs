@@ -4,14 +4,14 @@ LoadCase and LoadCombination Example
 In Finite Element, there is a thing named Force or Load. Also there are 
 
 There are two concepts named LoadCase and LoadCombination in this library and many other softwares.
-A ```LoadCase``` defines the group of loads. For example, in structure below there is a "dead" load and a "live" load, and two "earthquake" loads, in X and Y direction:
+A ```LoadCase``` defines the group of loads. For example, in structure below there is a "dead" load and a "live" load, and two "earthquake" loads, in X and Y direction on `n4` node:
 
 .. figure:: ../images/3d-frame-loadcomb.png
    :align: center
    
    Model with 4 type of load
    
-A LoadCase have a nature (an enum type) and a title (with string type). LoadNature can be:
+The LoadCase struct have a nature property (an enum type) and a title property (with string type). LoadNature can be:
 ``Default``, ``Dead``, ``Live``, ``Snow``, ``Wind``, ``Quake``, ``Crane`` and ``Other``.
 
 So there can be 4 LoadCases for this example:
