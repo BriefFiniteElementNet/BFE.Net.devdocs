@@ -7,3 +7,4 @@ Miscellaneous Topics
     :maxdepth: 2
 
     solveprocedure
+    debugvisualizer
