@@ -215,6 +215,7 @@ Remove columns that have pioneer member equal to `-1.0` and no change to right s
 
 Notes
 ^^^^^
+There is an interface named `IDisplacementPermutationCalculator` in the namespace `BriefFiniteElementNet.Mathh` which should do all 6 steps above or an output equivalent to output of step 6.
 
 What we want to do is to solve :math:`F_t = K_t * U_t`\ where there are some extra equations. Maybe there are other ways to handle this, for example maybe QR decomposition. But this is a way also...
 
@@ -222,6 +223,7 @@ Example
 ^^^^^^^
 
 Step 1:
+
 [0 0 1 1 3 0 2]    [x0] = [3]
 [0 0 2 6 1 0 5]  x [x1] = [1]
 [0 0 3 7 4 0 7]    [x2] = [4]
