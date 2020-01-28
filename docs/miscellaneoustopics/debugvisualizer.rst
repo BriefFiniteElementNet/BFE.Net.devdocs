@@ -6,15 +6,15 @@ What is debugger visualizer
 
 In visual studio when you are debugging an application, you can view the live values of variables like image below:
 
-.. figure:: ../images/d-vis.png
+.. figure:: images/d-vis.png
    :align: center
 
-.. figure:: ../images/d-vis2.png
+.. figure:: images/d-vis2.png
    :align: center   
    
 In image you can see there is a magnifier icon (debug2.png) next to test variable, this shows that there is a debugger visualizer for string type and you can click on the icon to see the details:
 
-.. figure:: ../images/magnifier.png
+.. figure:: images/magnifier.png
    :align: center
    
 BriefFiniteElement.NET library also contains debugger visualizer for visualizing the BriefFiniteElementNet.Model instances but you have to install the visualizer first and then when in debug mode you move the cursor on any variable of type Model, then the magnifier icon will appear and you can click on that to see your model.
@@ -37,7 +37,7 @@ You should first Download latest source code of project. There are several solut
 
 After opening the solution file, there is a project named 'BriefFiniteElementNet.DebuggerVisualizersVS20XX' where `VS20XX` matches the Visual Studio version number running on local computer, simply right click on it and click Build to build it like this image:
 
-.. figure:: ../build-vis-proj.png
+.. figure:: build-vis-proj.png
    :align: center
 
 after successful build of project it does automatically copy appropriated files into the "C:\Users\{YOUR_USER_NAME}\Documents\Visual Studio 20XX\Visualizers" using Post-Build events of project, and there is no need to do anything manually. The files that will copied to that address with build are:
@@ -51,10 +51,10 @@ after successful build of project it does automatically copy appropriated files 
 	
 Next time you debug your code, when move mouse to a variable with Model type you will see a magnifier icon like this:
 
-.. figure:: ../bfe-debug-vis-magnifier.png
+.. figure:: bfe-debug-vis-magnifier.png
    :align: center
    
 and you should simply click it to visualize and see your model like this:
 
-.. figure:: ../debug-vis-wnd.png
+.. figure:: debug-vis-wnd.png
    :align: center
