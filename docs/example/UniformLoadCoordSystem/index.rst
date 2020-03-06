@@ -11,7 +11,7 @@ Here are two examples:
 
 Example 1
 =========
-Consider the inclined frame shown in fig below.
+Consider the inclined frame shown in fig below, under dead load.
 
 .. figure:: ../images/uload-coord-sys-1.png
    :align: center
@@ -63,7 +63,7 @@ n1 reaction: F: 0, 0, -2500, M: 0, 0, 0
 
 Example 2
 =========
-Consider the inclined frame shown in fig below.
+Consider the inclined frame shown in fig below, under wind load.
 
 .. figure:: ../images/uload-coord-sys-2.png
    :align: center
@@ -110,5 +110,71 @@ result
 
 n0 reaction: F: 2000, 0, -1500, M: 0, 0, 0
 n1 reaction: F: 2000, 0, -1500, M: 0, 0, 0
+
+Example 3
+=========
+Consider the inclined frame shown in fig below, under snow load.
+
+.. figure:: ../images/uload-coord-sys-3.png
+   :align: center
+
++ Projected Magnitude of **1000 [N/m]**
++ Direction of **Z**
++ Coordination System of **Global**
+   
+There is an inclined element of length = ``5 [m]``, and an ``UniformLoad`` of magnitude ``1000 [N/m]`` which is projected.
+There is a difference about this type of load with two other examples above. For applying such projected load, first we have to convert it to example 1. 
+Based on [toturial in learnaboutstructures.com](http://www.learnaboutstructures.com/Determinate-Frame-Analysis) this is the way to convert:
+
+.. figure:: ../images/uload-coord-sys-3-cnv.png
+   :align: center
+
+So in this example we do not need theta value itself, but we need `Cos(θ)`. Due to elementary trigonometry relations `Cos(θ)=Sin(90°-θ)`. So instead of Cos(θ) we can calculate `Sin(α)` where `α = 90°-θ` and `α` equals to angle between load direction and element direction. For finding `Sin(α)` we can use length of cross product of two unit vectors of element direction and load direction:
+
+
+
+.. code-block:: cs
+
+	var m1 = new Model();
+
+	var el1 = new BarElement();
+
+	el1.Nodes[0] = new Node(0, 0, 0) { Constraints = Constraints.MovementFixed & Constraints.FixedRX, Label = "n0" };
+	el1.Nodes[1] = new Node(4, 0, 3) { Constraints = Constraints.MovementFixed, Label = "n1" };
+
+	el1.Section = new Sections.UniformGeometric1DSection(SectionGenerator.GetISetion(0.24, 0.67, 0.01, 0.006));
+	el1.Material = UniformIsotropicMaterial.CreateFromYoungPoisson(210e9, 0.3);
+
+
+	var loadMagnitude = -1e3;
+	var loadDirection = Vector.K;
+
+	var l1 = new Loads.UniformLoad();
+
+	var elementDir = el1.Nodes[1].Location - el1.Nodes[0].Location;
+	var prjLoadDir = loadDirection * Math.Sign(loadMagnitude);
+
+	var cosTeta = Vector.Cross(elementDir, prjLoadDir).Length / (elementDir.Length * prjLoadDir.Length);
+
+	l1.Direction = loadDirection;
+	l1.CoordinationSystem = CoordinationSystem.Global;
+	l1.Magnitude = loadMagnitude * cosTeta;//only l1.Magnitude should change because of projected load
+
+
+	el1.Loads.Add(l1);
+
+	m1.Elements.Add(el1);
+	m1.Nodes.Add(el1.Nodes);
+
+	m1.Solve_MPC();
+
+	Console.WriteLine("n0 reaction: {0}", m1.Nodes[0].GetSupportReaction());
+	Console.WriteLine("n1 reaction: {0}", m1.Nodes[0].GetSupportReaction());
+ 
+
+result
+
+n0 reaction: F: 0, 0, 2000, M: 0, 0, 0
+n1 reaction: F: 0, 0, 2000, M: 0, 0, 0
 
 whole source code exists in the `UniformLoadCoordSystem.cs` file.

@@ -37,7 +37,7 @@ You should first Download latest source code of project. There are several solut
 
 After opening the solution file, there is a project named 'BriefFiniteElementNet.DebuggerVisualizersVS20XX' where `VS20XX` matches the Visual Studio version number running on local computer, simply right click on it and click Build to build it like this image:
 
-.. figure:: build-vis-proj.png
+.. figure:: images/build-vis-proj.png
    :align: center
 
 after successful build of project it does automatically copy appropriated files into the "C:\Users\{YOUR_USER_NAME}\Documents\Visual Studio 20XX\Visualizers" using Post-Build events of project, and there is no need to do anything manually. The files that will copied to that address with build are:
@@ -51,10 +51,10 @@ after successful build of project it does automatically copy appropriated files 
 	
 Next time you debug your code, when move mouse to a variable with Model type you will see a magnifier icon like this:
 
-.. figure:: bfe-debug-vis-magnifier.png
+.. figure:: images/bfe-debug-vis-magnifier.png
    :align: center
    
 and you should simply click it to visualize and see your model like this:
 
-.. figure:: debug-vis-wnd.png
+.. figure:: images/debug-vis-wnd.png
    :align: center

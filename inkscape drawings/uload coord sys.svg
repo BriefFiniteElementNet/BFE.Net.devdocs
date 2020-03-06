@@ -14,10 +14,94 @@
    viewBox="0 0 744.09448819 1052.3622047"
    id="svg2"
    version="1.1"
-   inkscape:version="0.91 r13725"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
    sodipodi:docname="uload coord sys.svg">
   <defs
      id="defs4">
+    <marker
+       inkscape:stockid="Arrow1Lstart"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="Arrow1Lstart"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         id="path9599"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         transform="scale(0.8) translate(12.5,0)" />
+    </marker>
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible"
+       id="marker8769"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow2Lstart">
+      <path
+         transform="scale(1.1) translate(1,0)"
+         d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
+         style="fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round;stroke:#000000;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         id="path8767" />
+    </marker>
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible"
+       id="marker8471"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow2Lstart">
+      <path
+         transform="scale(1.1) translate(1,0)"
+         d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
+         style="fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round;stroke:#000000;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         id="path8469" />
+    </marker>
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible;"
+       id="marker7336"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lend">
+      <path
+         transform="scale(0.8) rotate(180) translate(12.5,0)"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         id="path7334" />
+    </marker>
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible;"
+       id="marker6924"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lend">
+      <path
+         transform="scale(0.8) rotate(180) translate(12.5,0)"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         id="path6922" />
+    </marker>
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible;"
+       id="marker6422"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lend">
+      <path
+         transform="scale(0.8) rotate(180) translate(12.5,0)"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         id="path6420" />
+    </marker>
     <marker
        inkscape:stockid="Arrow2Lstart"
        orient="auto"
@@ -25,7 +109,8 @@
        refX="0.0"
        id="marker13692"
        style="overflow:visible"
-       inkscape:isstock="true">
+       inkscape:isstock="true"
+       inkscape:collect="always">
       <path
          id="path13694"
          style="fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round;stroke:#000000;stroke-opacity:1;fill:#000000;fill-opacity:1"
@@ -39,7 +124,8 @@
        refX="0.0"
        refY="0.0"
        orient="auto"
-       inkscape:stockid="Arrow1Lend">
+       inkscape:stockid="Arrow1Lend"
+       inkscape:collect="always">
       <path
          transform="scale(0.8) rotate(180) translate(12.5,0)"
          style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
@@ -509,18 +595,18 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1"
-     inkscape:cx="833.68898"
-     inkscape:cy="403.59328"
+     inkscape:zoom="0.93338095"
+     inkscape:cx="1476.4558"
+     inkscape:cy="586.40972"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="true"
      inkscape:window-width="1920"
-     inkscape:window-height="1017"
-     inkscape:window-x="-4"
-     inkscape:window-y="-4"
+     inkscape:window-height="1018"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
      inkscape:window-maximized="1"
-     objecttolerance="10000"
+     objecttolerance="10"
      guidetolerance="10000">
     <inkscape:grid
        type="xygrid"
@@ -794,32 +880,32 @@
        inkscape:export-ydpi="90" />
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:15px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:#ff0000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="font-style:normal;font-weight:normal;line-height:0%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:#ff0000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        x="289.3371"
        y="877.4931"
        id="text6010"
-       sodipodi:linespacing="125%"
        inkscape:export-filename="D:\Codes\VS Projects\BriefFiniteElementNet_DevDocs\docs\example\images\uload-coord-sys-1.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90"><tspan
          sodipodi:role="line"
          id="tspan6012"
          x="289.3371"
-         y="877.4931">4 m</tspan></text>
+         y="877.4931"
+         style="font-size:15px;line-height:1.25">4 m</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:15px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:#ff0000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="font-style:normal;font-weight:normal;line-height:0%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:#ff0000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        x="614.27576"
        y="604.33435"
        id="text6014"
-       sodipodi:linespacing="125%"
        inkscape:export-filename="D:\Codes\VS Projects\BriefFiniteElementNet_DevDocs\docs\example\images\uload-coord-sys-1.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90"><tspan
          sodipodi:role="line"
          id="tspan6016"
          x="614.27576"
-         y="604.33435">3 m</tspan></text>
+         y="604.33435"
+         style="font-size:15px;line-height:1.25">3 m</tspan></text>
     <path
        style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1.79999995;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#DotL-5);marker-end:url(#DotL-5)"
        d="M 800,752.36222 1200,452.36223"
@@ -1007,40 +1093,32 @@
        inkscape:export-ydpi="90" />
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:15px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:#ff0000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="font-style:normal;font-weight:normal;line-height:0%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:#ff0000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        x="989.3371"
        y="877.4931"
        id="text6010-8"
-       sodipodi:linespacing="125%"
        inkscape:export-filename="D:\Codes\VS Projects\BriefFiniteElementNet_DevDocs\docs\example\images\uload-coord-sys-2.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90"><tspan
          sodipodi:role="line"
          id="tspan6012-3"
          x="989.3371"
-         y="877.4931">4 m</tspan></text>
+         y="877.4931"
+         style="font-size:15px;line-height:1.25">4 m</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:15px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:#ff0000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="font-style:normal;font-weight:normal;line-height:0%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:#ff0000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        x="1314.2759"
        y="604.33435"
        id="text6014-6"
-       sodipodi:linespacing="125%"
        inkscape:export-filename="D:\Codes\VS Projects\BriefFiniteElementNet_DevDocs\docs\example\images\uload-coord-sys-2.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90"><tspan
          sodipodi:role="line"
          id="tspan6016-3"
          x="1314.2759"
-         y="604.33435">3 m</tspan></text>
-    <path
-       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m 1200,452.36222 -60,-80"
-       id="path7951"
-       inkscape:connector-curvature="0"
-       inkscape:export-filename="D:\Codes\VS Projects\BriefFiniteElementNet_DevDocs\docs\example\images\uload-coord-sys-2.png"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
+         y="604.33435"
+         style="font-size:15px;line-height:1.25">3 m</tspan></text>
     <path
        style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-start:url(#marker4818);stroke-miterlimit:4;stroke-dasharray:none"
        d="M 790.72902,740.03673 739.9386,672.31617"
@@ -1091,24 +1169,23 @@
        inkscape:export-ydpi="90" />
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:15px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="font-style:normal;font-weight:normal;line-height:0%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        x="870"
        y="492.36221"
        id="text11706"
-       sodipodi:linespacing="125%"
        inkscape:export-filename="D:\Codes\VS Projects\BriefFiniteElementNet_DevDocs\docs\example\images\uload-coord-sys-2.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90"><tspan
          sodipodi:role="line"
          id="tspan11708"
          x="870"
-         y="492.36221">1000 N/m</tspan></text>
+         y="492.36221"
+         style="font-size:15px;line-height:1.25">1000 N/m</tspan></text>
     <text
-       sodipodi:linespacing="125%"
        id="text11710"
        y="492.36221"
        x="200.41432"
-       style="font-style:normal;font-weight:normal;font-size:15px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="font-style:normal;font-weight:normal;line-height:0%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        xml:space="preserve"
        inkscape:export-filename="D:\Codes\VS Projects\BriefFiniteElementNet_DevDocs\docs\example\images\uload-coord-sys-1.png"
        inkscape:export-xdpi="90"
@@ -1116,7 +1193,8 @@
          y="492.36221"
          x="200.41432"
          id="tspan11712"
-         sodipodi:role="line">1000 N/m</tspan></text>
+         sodipodi:role="line"
+         style="font-size:15px;line-height:1.25">1000 N/m</tspan></text>
     <path
        style="fill:none;fill-rule:evenodd;stroke:#ff0000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 1050,564.36221 8,10 -10,8"
@@ -1159,24 +1237,23 @@
        inkscape:export-ydpi="90" />
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:15px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="font-style:normal;font-weight:normal;line-height:0%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        x="126"
        y="914.36218"
        id="text13110"
-       sodipodi:linespacing="125%"
        inkscape:export-filename="D:\Codes\VS Projects\BriefFiniteElementNet_DevDocs\docs\example\images\uload-coord-sys-1.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90"><tspan
          sodipodi:role="line"
          id="tspan13112"
          x="126"
-         y="914.36218">2500 [N]</tspan></text>
+         y="914.36218"
+         style="font-size:15px;line-height:1.25">2500 [N]</tspan></text>
     <text
-       sodipodi:linespacing="125%"
        id="text13114"
        y="581.78528"
        x="410.20209"
-       style="font-style:normal;font-weight:normal;font-size:15px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="font-style:normal;font-weight:normal;line-height:0%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        xml:space="preserve"
        inkscape:export-filename="D:\Codes\VS Projects\BriefFiniteElementNet_DevDocs\docs\example\images\uload-coord-sys-1.png"
        inkscape:export-xdpi="90"
@@ -1184,13 +1261,13 @@
          y="581.78528"
          x="410.20209"
          id="tspan13116"
-         sodipodi:role="line">2500 [N]</tspan></text>
+         sodipodi:role="line"
+         style="font-size:15px;line-height:1.25">2500 [N]</tspan></text>
     <text
-       sodipodi:linespacing="125%"
        id="text13118"
        y="914.36218"
        x="126"
-       style="font-style:normal;font-weight:normal;font-size:15px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="font-style:normal;font-weight:normal;line-height:0%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        xml:space="preserve"
        inkscape:export-filename="D:\Codes\VS Projects\BriefFiniteElementNet_DevDocs\docs\example\images\uload-coord-sys-1.png"
        inkscape:export-xdpi="90"
@@ -1198,21 +1275,22 @@
          y="914.36218"
          x="126"
          id="tspan13120"
-         sodipodi:role="line">2500 [N]</tspan></text>
+         sodipodi:role="line"
+         style="font-size:15px;line-height:1.25">2500 [N]</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:15px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="font-style:normal;font-weight:normal;line-height:0%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        x="410.20209"
        y="581.78528"
        id="text13122"
-       sodipodi:linespacing="125%"
        inkscape:export-filename="D:\Codes\VS Projects\BriefFiniteElementNet_DevDocs\docs\example\images\uload-coord-sys-1.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90"><tspan
          sodipodi:role="line"
          id="tspan13124"
          x="410.20209"
-         y="581.78528">2500 [N]</tspan></text>
+         y="581.78528"
+         style="font-size:15px;line-height:1.25">2500 [N]</tspan></text>
     <path
        inkscape:connector-curvature="0"
        id="path13126"
@@ -1247,32 +1325,32 @@
        inkscape:export-ydpi="90" />
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:15px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="font-style:normal;font-weight:normal;line-height:0%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        x="1110.4276"
        y="581.78528"
        id="text13138"
-       sodipodi:linespacing="125%"
        inkscape:export-filename="D:\Codes\VS Projects\BriefFiniteElementNet_DevDocs\docs\example\images\uload-coord-sys-2.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90"><tspan
          sodipodi:role="line"
          id="tspan13140"
          x="1110.4276"
-         y="581.78528">2000 [N]</tspan></text>
+         y="581.78528"
+         style="font-size:15px;line-height:1.25">2000 [N]</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:15px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="font-style:normal;font-weight:normal;line-height:0%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        x="806.22559"
        y="881.86218"
        id="text13142"
-       sodipodi:linespacing="125%"
        inkscape:export-filename="D:\Codes\VS Projects\BriefFiniteElementNet_DevDocs\docs\example\images\uload-coord-sys-2.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90"><tspan
          sodipodi:role="line"
          id="tspan13144"
          x="806.22559"
-         y="881.86218">2000 [N]</tspan></text>
+         y="881.86218"
+         style="font-size:15px;line-height:1.25">2000 [N]</tspan></text>
     <path
        style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-start:url(#marker12338)"
        d="m 1220,452.36222 100,0"
@@ -1291,18 +1369,18 @@
        inkscape:export-ydpi="90" />
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:15px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="font-style:normal;font-weight:normal;line-height:0%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        x="1250"
        y="427.36221"
        id="text13674"
-       sodipodi:linespacing="125%"
        inkscape:export-filename="D:\Codes\VS Projects\BriefFiniteElementNet_DevDocs\docs\example\images\uload-coord-sys-2.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90"><tspan
          sodipodi:role="line"
          id="tspan13676"
          x="1250"
-         y="427.36221">1500 [N]</tspan></text>
+         y="427.36221"
+         style="font-size:15px;line-height:1.25">1500 [N]</tspan></text>
     <path
        inkscape:connector-curvature="0"
        id="path13684"
@@ -1320,11 +1398,10 @@
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90" />
     <text
-       sodipodi:linespacing="125%"
        id="text13688"
        y="727.36218"
        x="872"
-       style="font-style:normal;font-weight:normal;font-size:15px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="font-style:normal;font-weight:normal;line-height:0%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        xml:space="preserve"
        inkscape:export-filename="D:\Codes\VS Projects\BriefFiniteElementNet_DevDocs\docs\example\images\uload-coord-sys-2.png"
        inkscape:export-xdpi="90"
@@ -1332,6 +1409,897 @@
          y="727.36218"
          x="872"
          id="tspan13690"
-         sodipodi:role="line">1500 [N]</tspan></text>
+         sodipodi:role="line"
+         style="font-size:15px;line-height:1.25">1500 [N]</tspan></text>
+    <path
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="D:\Codes\VS Projects\BriefFiniteElementNet_DevDocs\docs\example\images\uload-coord-sys-2.png"
+       inkscape:connector-curvature="0"
+       id="path4931"
+       d="m 1502.1875,752.36222 400,-299.99999"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1.79999995;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#DotL-5);marker-end:url(#DotL-5)" />
+    <path
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="D:\Codes\VS Projects\BriefFiniteElementNet_DevDocs\docs\example\images\uload-coord-sys-2.png"
+       sodipodi:nodetypes="cc"
+       inkscape:connector-curvature="0"
+       id="path4933"
+       d="m 1500.0173,372.06354 h 399.8396"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.78138977px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    <path
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="D:\Codes\VS Projects\BriefFiniteElementNet_DevDocs\docs\example\images\uload-coord-sys-2.png"
+       inkscape:connector-curvature="0"
+       id="path4935"
+       d="m 1502.1875,752.36222 -20,40 h 40 l -20,-40"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    <path
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="D:\Codes\VS Projects\BriefFiniteElementNet_DevDocs\docs\example\images\uload-coord-sys-2.png"
+       inkscape:connector-curvature="0"
+       id="path4937"
+       d="m 1902.1875,452.36223 -20,40 h 40 z"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    <path
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="D:\Codes\VS Projects\BriefFiniteElementNet_DevDocs\docs\example\images\uload-coord-sys-2.png"
+       inkscape:connector-curvature="0"
+       id="path4939"
+       d="m 1542.1875,792.36222 h -80"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    <path
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="D:\Codes\VS Projects\BriefFiniteElementNet_DevDocs\docs\example\images\uload-coord-sys-2.png"
+       inkscape:connector-curvature="0"
+       id="path4941"
+       d="m 1462.1875,802.36222 10,-10"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    <path
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="D:\Codes\VS Projects\BriefFiniteElementNet_DevDocs\docs\example\images\uload-coord-sys-2.png"
+       inkscape:connector-curvature="0"
+       id="path4943"
+       d="m 1472.1875,802.36222 10,-10"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    <path
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="D:\Codes\VS Projects\BriefFiniteElementNet_DevDocs\docs\example\images\uload-coord-sys-2.png"
+       inkscape:connector-curvature="0"
+       id="path4945"
+       d="m 1482.1875,802.36222 10,-10"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    <path
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="D:\Codes\VS Projects\BriefFiniteElementNet_DevDocs\docs\example\images\uload-coord-sys-2.png"
+       inkscape:connector-curvature="0"
+       id="path4947"
+       d="m 1492.1875,802.36222 10,-10"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    <path
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="D:\Codes\VS Projects\BriefFiniteElementNet_DevDocs\docs\example\images\uload-coord-sys-2.png"
+       inkscape:connector-curvature="0"
+       id="path4949"
+       d="m 1502.1875,802.36222 10,-10"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    <path
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="D:\Codes\VS Projects\BriefFiniteElementNet_DevDocs\docs\example\images\uload-coord-sys-2.png"
+       inkscape:connector-curvature="0"
+       id="path4951"
+       d="m 1512.1875,802.36222 10,-10"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    <path
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="D:\Codes\VS Projects\BriefFiniteElementNet_DevDocs\docs\example\images\uload-coord-sys-2.png"
+       inkscape:connector-curvature="0"
+       id="path4953"
+       d="m 1522.1875,802.36222 10,-10"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    <path
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="D:\Codes\VS Projects\BriefFiniteElementNet_DevDocs\docs\example\images\uload-coord-sys-2.png"
+       inkscape:connector-curvature="0"
+       id="path4955"
+       d="m 1532.1875,802.36222 10,-10"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    <path
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="D:\Codes\VS Projects\BriefFiniteElementNet_DevDocs\docs\example\images\uload-coord-sys-2.png"
+       inkscape:connector-curvature="0"
+       id="path4957"
+       d="m 1872.1875,492.36223 h 70"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    <path
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="D:\Codes\VS Projects\BriefFiniteElementNet_DevDocs\docs\example\images\uload-coord-sys-2.png"
+       inkscape:connector-curvature="0"
+       id="path4959"
+       d="m 1872.1875,502.36223 10,-10"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    <path
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="D:\Codes\VS Projects\BriefFiniteElementNet_DevDocs\docs\example\images\uload-coord-sys-2.png"
+       inkscape:connector-curvature="0"
+       id="path4961"
+       d="m 1882.1875,502.36223 10,-10"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    <path
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="D:\Codes\VS Projects\BriefFiniteElementNet_DevDocs\docs\example\images\uload-coord-sys-2.png"
+       inkscape:connector-curvature="0"
+       id="path4963"
+       d="m 1892.1875,502.36223 10,-10"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    <path
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="D:\Codes\VS Projects\BriefFiniteElementNet_DevDocs\docs\example\images\uload-coord-sys-2.png"
+       inkscape:connector-curvature="0"
+       id="path4965"
+       d="m 1902.1875,502.36223 10,-10"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    <path
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="D:\Codes\VS Projects\BriefFiniteElementNet_DevDocs\docs\example\images\uload-coord-sys-2.png"
+       inkscape:connector-curvature="0"
+       id="path4967"
+       d="m 1912.1875,502.36223 10,-10"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    <path
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="D:\Codes\VS Projects\BriefFiniteElementNet_DevDocs\docs\example\images\uload-coord-sys-2.png"
+       inkscape:connector-curvature="0"
+       id="path4969"
+       d="m 1922.1875,502.36223 10,-10"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    <path
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="D:\Codes\VS Projects\BriefFiniteElementNet_DevDocs\docs\example\images\uload-coord-sys-2.png"
+       inkscape:connector-curvature="0"
+       id="path4971"
+       d="m 1932.1875,502.36223 10,-10"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    <path
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="D:\Codes\VS Projects\BriefFiniteElementNet_DevDocs\docs\example\images\uload-coord-sys-2.png"
+       inkscape:connector-curvature="0"
+       id="path4973"
+       d="M 2002.1875,452.36223 V 752.36222"
+       style="fill:none;fill-rule:evenodd;stroke:#ff0000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-start:url(#marker5780-6);marker-end:url(#marker5780-6)" />
+    <path
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="D:\Codes\VS Projects\BriefFiniteElementNet_DevDocs\docs\example\images\uload-coord-sys-2.png"
+       inkscape:connector-curvature="0"
+       id="path4975"
+       d="m 1902.1875,852.36222 h -400"
+       style="fill:none;fill-rule:evenodd;stroke:#ff0000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-start:url(#marker5692-0);marker-end:url(#marker5898-8)" />
+    <text
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="D:\Codes\VS Projects\BriefFiniteElementNet_DevDocs\docs\example\images\uload-coord-sys-2.png"
+       id="text4979"
+       y="877.4931"
+       x="1691.5247"
+       style="font-style:normal;font-weight:normal;line-height:0%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:#ff0000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         style="font-size:15px;line-height:1.25"
+         y="877.4931"
+         x="1691.5247"
+         id="tspan4977"
+         sodipodi:role="line">4 m</tspan></text>
+    <text
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="D:\Codes\VS Projects\BriefFiniteElementNet_DevDocs\docs\example\images\uload-coord-sys-2.png"
+       id="text4983"
+       y="604.33435"
+       x="2016.4634"
+       style="font-style:normal;font-weight:normal;line-height:0%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:#ff0000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         style="font-size:15px;line-height:1.25"
+         y="604.33435"
+         x="2016.4634"
+         id="tspan4981"
+         sodipodi:role="line">3 m</tspan></text>
+    <path
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="D:\Codes\VS Projects\BriefFiniteElementNet_DevDocs\docs\example\images\uload-coord-sys-2.png"
+       inkscape:connector-curvature="0"
+       id="path4987"
+       d="M 1500,436.6396 V 372.00722"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.78138977;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#marker4818)" />
+    <path
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="D:\Codes\VS Projects\BriefFiniteElementNet_DevDocs\docs\example\images\uload-coord-sys-2.png"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.78138977;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#marker9398)"
+       d="M 1580.0948,437.04071 V 372.40835"
+       id="path4989"
+       inkscape:connector-curvature="0" />
+    <path
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="D:\Codes\VS Projects\BriefFiniteElementNet_DevDocs\docs\example\images\uload-coord-sys-2.png"
+       inkscape:connector-curvature="0"
+       id="path4991"
+       d="m 1660.0747,436.89069 -10e-5,-64.63242"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.78138977;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#marker10154)" />
+    <path
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="D:\Codes\VS Projects\BriefFiniteElementNet_DevDocs\docs\example\images\uload-coord-sys-2.png"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.78138977;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#marker10520)"
+       d="m 1740.0061,436.99452 10e-5,-64.63231"
+       id="path4995"
+       inkscape:connector-curvature="0" />
+    <path
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="D:\Codes\VS Projects\BriefFiniteElementNet_DevDocs\docs\example\images\uload-coord-sys-2.png"
+       inkscape:connector-curvature="0"
+       id="path4997"
+       d="m 1820.0036,437.01958 -2e-4,-64.63247"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.78138977;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#marker10958)" />
+    <text
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="D:\Codes\VS Projects\BriefFiniteElementNet_DevDocs\docs\example\images\uload-coord-sys-2.png"
+       id="text5001"
+       y="320.48721"
+       x="1665.9375"
+       style="font-style:normal;font-weight:normal;line-height:0%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         style="font-size:15px;line-height:1.25"
+         y="320.48721"
+         x="1665.9375"
+         id="tspan4999"
+         sodipodi:role="line">1000 N/m</tspan></text>
+    <path
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="D:\Codes\VS Projects\BriefFiniteElementNet_DevDocs\docs\example\images\uload-coord-sys-2.png"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#marker13150)"
+       d="m 1502.4131,914.36221 v -100"
+       id="path5005"
+       inkscape:connector-curvature="0" />
+    <path
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="D:\Codes\VS Projects\BriefFiniteElementNet_DevDocs\docs\example\images\uload-coord-sys-2.png"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#marker12714)"
+       d="M 1902.4131,612.36221 V 512.36222"
+       id="path5007"
+       inkscape:connector-curvature="0" />
+    <path
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="D:\Codes\VS Projects\BriefFiniteElementNet_DevDocs\docs\example\images\uload-coord-sys-2.png"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 1892.4131,572.36221 20,-19.99999"
+       id="path5009"
+       inkscape:connector-curvature="0" />
+    <path
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="D:\Codes\VS Projects\BriefFiniteElementNet_DevDocs\docs\example\images\uload-coord-sys-2.png"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 1492.4131,874.36221 20,-20"
+       id="path5011"
+       inkscape:connector-curvature="0" />
+    <text
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="D:\Codes\VS Projects\BriefFiniteElementNet_DevDocs\docs\example\images\uload-coord-sys-2.png"
+       id="text5015"
+       y="581.78528"
+       x="1812.6151"
+       style="font-style:normal;font-weight:normal;line-height:0%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         style="font-size:15px;line-height:1.25"
+         y="581.78528"
+         x="1812.6151"
+         id="tspan5013"
+         sodipodi:role="line">2000 [N]</tspan></text>
+    <text
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="D:\Codes\VS Projects\BriefFiniteElementNet_DevDocs\docs\example\images\uload-coord-sys-2.png"
+       id="text5019"
+       y="881.86218"
+       x="1508.4131"
+       style="font-style:normal;font-weight:normal;line-height:0%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         style="font-size:15px;line-height:1.25"
+         y="881.86218"
+         x="1508.4131"
+         id="tspan5017"
+         sodipodi:role="line">2000 [N]</tspan></text>
+    <path
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="D:\Codes\VS Projects\BriefFiniteElementNet_DevDocs\docs\example\images\uload-coord-sys-2.png"
+       inkscape:connector-curvature="0"
+       id="path5037"
+       d="M 1190.7905,440.08277 1140,372.36221"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#marker10958)" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.78138977;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#marker10958)"
+       d="M 1900.0002,437.01958 1900,372.38711"
+       id="path5039"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="D:\Codes\VS Projects\BriefFiniteElementNet_DevDocs\docs\example\images\uload-coord-sys-2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1.79999995;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#DotL-5);marker-end:url(#DotL-5)"
+       d="M 200,52.362207 600,-247.63778"
+       id="path5126"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="D:\Codes\VS Projects\BriefFiniteElementNet_DevDocs\docs\example\images\uload-coord-sys-2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.78138977px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 197.8298,-327.93647 H 597.6694"
+       id="path5128"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="D:\Codes\VS Projects\BriefFiniteElementNet_DevDocs\docs\example\images\uload-coord-sys-2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 200,52.362207 -20,40 h 40 l -20,-40"
+       id="path5130"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="D:\Codes\VS Projects\BriefFiniteElementNet_DevDocs\docs\example\images\uload-coord-sys-2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 600,-247.63778 -20,40 h 40 z"
+       id="path5132"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="D:\Codes\VS Projects\BriefFiniteElementNet_DevDocs\docs\example\images\uload-coord-sys-2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 240,92.362207 H 160"
+       id="path5134"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="D:\Codes\VS Projects\BriefFiniteElementNet_DevDocs\docs\example\images\uload-coord-sys-2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 160,102.36221 170,92.362207"
+       id="path5136"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="D:\Codes\VS Projects\BriefFiniteElementNet_DevDocs\docs\example\images\uload-coord-sys-2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 170,102.36221 180,92.362207"
+       id="path5138"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="D:\Codes\VS Projects\BriefFiniteElementNet_DevDocs\docs\example\images\uload-coord-sys-2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 180,102.36221 190,92.362207"
+       id="path5141"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="D:\Codes\VS Projects\BriefFiniteElementNet_DevDocs\docs\example\images\uload-coord-sys-2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 190,102.36221 200,92.362207"
+       id="path5143"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="D:\Codes\VS Projects\BriefFiniteElementNet_DevDocs\docs\example\images\uload-coord-sys-2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 200,102.36221 210,92.362207"
+       id="path5145"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="D:\Codes\VS Projects\BriefFiniteElementNet_DevDocs\docs\example\images\uload-coord-sys-2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 210,102.36221 220,92.362207"
+       id="path5147"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="D:\Codes\VS Projects\BriefFiniteElementNet_DevDocs\docs\example\images\uload-coord-sys-2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 220,102.36221 230,92.362207"
+       id="path5149"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="D:\Codes\VS Projects\BriefFiniteElementNet_DevDocs\docs\example\images\uload-coord-sys-2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 230,102.36221 240,92.362207"
+       id="path5151"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="D:\Codes\VS Projects\BriefFiniteElementNet_DevDocs\docs\example\images\uload-coord-sys-2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 570,-207.63778 h 70"
+       id="path5153"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="D:\Codes\VS Projects\BriefFiniteElementNet_DevDocs\docs\example\images\uload-coord-sys-2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 570,-197.63778 10,-10"
+       id="path5155"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="D:\Codes\VS Projects\BriefFiniteElementNet_DevDocs\docs\example\images\uload-coord-sys-2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 580,-197.63778 10,-10"
+       id="path5157"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="D:\Codes\VS Projects\BriefFiniteElementNet_DevDocs\docs\example\images\uload-coord-sys-2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 590,-197.63778 10,-10"
+       id="path5159"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="D:\Codes\VS Projects\BriefFiniteElementNet_DevDocs\docs\example\images\uload-coord-sys-2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 600,-197.63778 10,-10"
+       id="path5161"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="D:\Codes\VS Projects\BriefFiniteElementNet_DevDocs\docs\example\images\uload-coord-sys-2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 610,-197.63778 10,-10"
+       id="path5163"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="D:\Codes\VS Projects\BriefFiniteElementNet_DevDocs\docs\example\images\uload-coord-sys-2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 620,-197.63778 10,-10"
+       id="path5165"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="D:\Codes\VS Projects\BriefFiniteElementNet_DevDocs\docs\example\images\uload-coord-sys-2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 630,-197.63778 10,-10"
+       id="path5167"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="D:\Codes\VS Projects\BriefFiniteElementNet_DevDocs\docs\example\images\uload-coord-sys-2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.78138977;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#marker4818)"
+       d="m 197.8125,-263.36041 v -64.63238"
+       id="path5181"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="D:\Codes\VS Projects\BriefFiniteElementNet_DevDocs\docs\example\images\uload-coord-sys-2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path5183"
+       d="m 277.9073,-262.9593 v -64.63236"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.78138977;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#marker9398)"
+       inkscape:export-filename="D:\Codes\VS Projects\BriefFiniteElementNet_DevDocs\docs\example\images\uload-coord-sys-2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.78138977;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#marker10154)"
+       d="m 357.8872,-263.10932 -1e-4,-64.63242"
+       id="path5185"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="D:\Codes\VS Projects\BriefFiniteElementNet_DevDocs\docs\example\images\uload-coord-sys-2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path5187"
+       d="m 437.8186,-263.00549 10e-5,-64.63231"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.78138977;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#marker10520)"
+       inkscape:export-filename="D:\Codes\VS Projects\BriefFiniteElementNet_DevDocs\docs\example\images\uload-coord-sys-2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.78138977;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#marker10958)"
+       d="m 517.8161,-262.98043 -2e-4,-64.63247"
+       id="path5189"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="D:\Codes\VS Projects\BriefFiniteElementNet_DevDocs\docs\example\images\uload-coord-sys-2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:25px;line-height:0%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="376.53409"
+       y="-353.94464"
+       id="text5193"
+       inkscape:export-filename="D:\Codes\VS Projects\BriefFiniteElementNet_DevDocs\docs\example\images\uload-coord-sys-2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         id="tspan5191"
+         x="376.53409"
+         y="-353.94464"
+         style="font-size:25px;line-height:1.25">W</tspan></text>
+    <path
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="D:\Codes\VS Projects\BriefFiniteElementNet_DevDocs\docs\example\images\uload-coord-sys-2.png"
+       inkscape:connector-curvature="0"
+       id="path5211"
+       d="m 597.8127,-262.98043 -2e-4,-64.63247"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.78138977;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#marker10958)" />
+    <path
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="D:\Codes\VS Projects\BriefFiniteElementNet_DevDocs\docs\example\images\uload-coord-sys-1.png"
+       inkscape:connector-curvature="0"
+       id="path5299"
+       d="M 800,52.362207 1200,-247.63778"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1.79999995;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#DotL);marker-end:url(#DotL)" />
+    <path
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="D:\Codes\VS Projects\BriefFiniteElementNet_DevDocs\docs\example\images\uload-coord-sys-1.png"
+       inkscape:connector-curvature="0"
+       id="path5301"
+       d="m 880,-107.63779 v 89.999997"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#marker5138)" />
+    <path
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="D:\Codes\VS Projects\BriefFiniteElementNet_DevDocs\docs\example\images\uload-coord-sys-1.png"
+       inkscape:connector-curvature="0"
+       id="path5303"
+       d="m 960,-167.63778 v 89.999987"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#marker5080)" />
+    <path
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="D:\Codes\VS Projects\BriefFiniteElementNet_DevDocs\docs\example\images\uload-coord-sys-1.png"
+       inkscape:connector-curvature="0"
+       id="path5305"
+       d="m 1040,-227.63778 v 90"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#marker5028)" />
+    <path
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="D:\Codes\VS Projects\BriefFiniteElementNet_DevDocs\docs\example\images\uload-coord-sys-1.png"
+       inkscape:connector-curvature="0"
+       id="path5307"
+       d="m 1120,-287.63778 v 90"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow1Lend)" />
+    <path
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="D:\Codes\VS Projects\BriefFiniteElementNet_DevDocs\docs\example\images\uload-coord-sys-1.png"
+       sodipodi:nodetypes="cc"
+       inkscape:connector-curvature="0"
+       id="path5309"
+       d="M 800,-47.637793 1200,-347.63778"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    <path
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="D:\Codes\VS Projects\BriefFiniteElementNet_DevDocs\docs\example\images\uload-coord-sys-1.png"
+       inkscape:connector-curvature="0"
+       id="path5311"
+       d="m 1200,-347.63778 v 90"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#marker5272)" />
+    <path
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="D:\Codes\VS Projects\BriefFiniteElementNet_DevDocs\docs\example\images\uload-coord-sys-1.png"
+       inkscape:connector-curvature="0"
+       id="path5313"
+       d="m 800,-47.637793 v 90"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#marker5202)" />
+    <path
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="D:\Codes\VS Projects\BriefFiniteElementNet_DevDocs\docs\example\images\uload-coord-sys-1.png"
+       inkscape:connector-curvature="0"
+       id="path5315"
+       d="m 800,52.362207 -20,40 h 40 l -20,-40"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    <path
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="D:\Codes\VS Projects\BriefFiniteElementNet_DevDocs\docs\example\images\uload-coord-sys-1.png"
+       inkscape:connector-curvature="0"
+       id="path5317"
+       d="m 1200,-247.63778 -20,40 h 40 z"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    <path
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="D:\Codes\VS Projects\BriefFiniteElementNet_DevDocs\docs\example\images\uload-coord-sys-1.png"
+       inkscape:connector-curvature="0"
+       id="path5319"
+       d="M 840,92.362207 H 760"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    <path
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="D:\Codes\VS Projects\BriefFiniteElementNet_DevDocs\docs\example\images\uload-coord-sys-1.png"
+       inkscape:connector-curvature="0"
+       id="path5321"
+       d="M 760,102.36221 770,92.362207"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    <path
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="D:\Codes\VS Projects\BriefFiniteElementNet_DevDocs\docs\example\images\uload-coord-sys-1.png"
+       inkscape:connector-curvature="0"
+       id="path5323"
+       d="M 770,102.36221 780,92.362207"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    <path
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="D:\Codes\VS Projects\BriefFiniteElementNet_DevDocs\docs\example\images\uload-coord-sys-1.png"
+       inkscape:connector-curvature="0"
+       id="path5325"
+       d="M 780,102.36221 790,92.362207"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    <path
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="D:\Codes\VS Projects\BriefFiniteElementNet_DevDocs\docs\example\images\uload-coord-sys-1.png"
+       inkscape:connector-curvature="0"
+       id="path5327"
+       d="M 790,102.36221 800,92.362207"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    <path
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="D:\Codes\VS Projects\BriefFiniteElementNet_DevDocs\docs\example\images\uload-coord-sys-1.png"
+       inkscape:connector-curvature="0"
+       id="path5329"
+       d="M 800,102.36221 810,92.362207"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    <path
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="D:\Codes\VS Projects\BriefFiniteElementNet_DevDocs\docs\example\images\uload-coord-sys-1.png"
+       inkscape:connector-curvature="0"
+       id="path5331"
+       d="M 810,102.36221 820,92.362207"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    <path
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="D:\Codes\VS Projects\BriefFiniteElementNet_DevDocs\docs\example\images\uload-coord-sys-1.png"
+       inkscape:connector-curvature="0"
+       id="path5333"
+       d="M 820,102.36221 830,92.362207"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    <path
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="D:\Codes\VS Projects\BriefFiniteElementNet_DevDocs\docs\example\images\uload-coord-sys-1.png"
+       inkscape:connector-curvature="0"
+       id="path5335"
+       d="M 830,102.36221 840,92.362207"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    <path
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="D:\Codes\VS Projects\BriefFiniteElementNet_DevDocs\docs\example\images\uload-coord-sys-1.png"
+       inkscape:connector-curvature="0"
+       id="path5337"
+       d="m 1170,-207.63778 h 70"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    <path
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="D:\Codes\VS Projects\BriefFiniteElementNet_DevDocs\docs\example\images\uload-coord-sys-1.png"
+       inkscape:connector-curvature="0"
+       id="path5339"
+       d="m 1170,-197.63778 10,-10"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    <path
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="D:\Codes\VS Projects\BriefFiniteElementNet_DevDocs\docs\example\images\uload-coord-sys-1.png"
+       inkscape:connector-curvature="0"
+       id="path5341"
+       d="m 1180,-197.63778 10,-10"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    <path
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="D:\Codes\VS Projects\BriefFiniteElementNet_DevDocs\docs\example\images\uload-coord-sys-1.png"
+       inkscape:connector-curvature="0"
+       id="path5343"
+       d="m 1190,-197.63778 10,-10"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    <path
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="D:\Codes\VS Projects\BriefFiniteElementNet_DevDocs\docs\example\images\uload-coord-sys-1.png"
+       inkscape:connector-curvature="0"
+       id="path5345"
+       d="m 1200,-197.63778 10,-10"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    <path
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="D:\Codes\VS Projects\BriefFiniteElementNet_DevDocs\docs\example\images\uload-coord-sys-1.png"
+       inkscape:connector-curvature="0"
+       id="path5347"
+       d="m 1210,-197.63778 10,-10"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    <path
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="D:\Codes\VS Projects\BriefFiniteElementNet_DevDocs\docs\example\images\uload-coord-sys-1.png"
+       inkscape:connector-curvature="0"
+       id="path5349"
+       d="m 1220,-197.63778 10,-10"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    <path
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="D:\Codes\VS Projects\BriefFiniteElementNet_DevDocs\docs\example\images\uload-coord-sys-1.png"
+       inkscape:connector-curvature="0"
+       id="path5351"
+       d="m 1230,-197.63778 10,-10"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    <text
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="D:\Codes\VS Projects\BriefFiniteElementNet_DevDocs\docs\example\images\uload-coord-sys-2.png"
+       id="text5395"
+       y="-227.83827"
+       x="909.51099"
+       style="font-style:normal;font-weight:normal;font-size:25px;line-height:0%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         style="font-size:25px;line-height:1.25"
+         y="-227.83827"
+         x="909.51099"
+         id="tspan5393"
+         sodipodi:role="line">W.cos(θ)</tspan></text>
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot5397"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       transform="matrix(0.9375,0,0,0.9375,18.465909,0)"><flowRegion
+         id="flowRegion5399"><rect
+           id="rect5401"
+           width="106.66666"
+           height="64"
+           x="725.33331"
+           y="-178.81364" /></flowRegion><flowPara
+         id="flowPara5403">~</flowPara></flowRoot>    <path
+       style="fill:none;stroke:#000000;stroke-width:0.66291261px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 300,-47.637792 H 400"
+       id="path5405"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.9375px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 900,-47.637792 h 100"
+       id="path5407"
+       inkscape:connector-curvature="0" />
+    <path
+       sodipodi:nodetypes="cc"
+       inkscape:connector-curvature="0"
+       id="path6920"
+       d="m 1000,-47.637793 c 0,-15 -10,-25 -20,-35"
+       style="fill:none;stroke:#000000;stroke-width:0.9375px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#marker6924)" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:25px;line-height:0%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="394.64224"
+       y="-60.324097"
+       id="text7318"
+       inkscape:export-filename="D:\Codes\VS Projects\BriefFiniteElementNet_DevDocs\docs\example\images\uload-coord-sys-2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         id="tspan7316"
+         x="394.64224"
+         y="-60.324097"
+         style="font-size:25px;line-height:1.25">θ</tspan></text>
+    <text
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="D:\Codes\VS Projects\BriefFiniteElementNet_DevDocs\docs\example\images\uload-coord-sys-2.png"
+       id="text7322"
+       y="-66.127769"
+       x="1003.9258"
+       style="font-style:normal;font-weight:normal;font-size:25px;line-height:0%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         style="font-size:25px;line-height:1.25"
+         y="-66.127769"
+         x="1003.9258"
+         id="tspan7320"
+         sodipodi:role="line">θ</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.9375px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 333.125,-17.637793 V -107.6378"
+       id="path7324"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.9375;stroke-opacity:1"
+       d="m 333.7392,-97.135586 c 27.61424,0 50,22.385763 50,50"
+       id="path8139"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc" />
+    <text
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="D:\Codes\VS Projects\BriefFiniteElementNet_DevDocs\docs\example\images\uload-coord-sys-2.png"
+       id="text11137"
+       y="-110.75024"
+       x="346.7019"
+       style="font-style:normal;font-weight:normal;font-size:25px;line-height:0%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         style="font-size:25px;line-height:1.25"
+         y="-110.75024"
+         x="346.7019"
+         id="tspan11135"
+         sodipodi:role="line">90-θ</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.9375;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#marker7336);marker-end:url(#Arrow1Lstart)"
+       d="m 372,-78.235065 1.20364,1.597272"
+       id="path11187"
+       inkscape:connector-curvature="0" />
   </g>
 </svg>
