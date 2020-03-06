@@ -129,14 +129,13 @@ Based on [toturial in learnaboutstructures.com](http://www.learnaboutstructures.
 .. figure:: ../images/uload-coord-sys-3-cnv.png
    :align: center
 
-So in this example we do not need theta value itself, but we need `Cos(θ)`. Due to elementary trigonometry relations `Cos(θ)=Sin(90°-θ)`. So instead of Cos(θ) we can calculate `Sin(α)` where `α = 90°-θ` and `α` equals to angle between load direction and element direction. For finding `Sin(α)` we can use length of cross product of two unit vectors of element direction and load direction:
+So in this example we do not need theta value itself, but we need `Cos(θ)` or more precise absolute value of it `|Cos(θ)|`. Due to elementary trigonometry relations `Cos(θ)=Sin(90°-θ)`. So instead of `|Cos(θ)|` we can calculate `|Sin(α)|` where `α = 90°-θ` and `α` equals to angle between load direction and element direction. For finding `|Sin(α)|` we can use length of cross product of two unit vectors of element direction and load direction. This coefficient is always a non negative value and less than or equal to `1.0`. 
 
 
 
 .. code-block:: cs
 
-	var m1 = new Model();
-
+	var m1 = new Model()
 	var el1 = new BarElement();
 
 	el1.Nodes[0] = new Node(0, 0, 0) { Constraints = Constraints.MovementFixed & Constraints.FixedRX, Label = "n0" };
@@ -145,21 +144,18 @@ So in this example we do not need theta value itself, but we need `Cos(θ)`. Due
 	el1.Section = new Sections.UniformGeometric1DSection(SectionGenerator.GetISetion(0.24, 0.67, 0.01, 0.006));
 	el1.Material = UniformIsotropicMaterial.CreateFromYoungPoisson(210e9, 0.3);
 
-
 	var loadMagnitude = -1e3;
 	var loadDirection = Vector.K;
 
 	var l1 = new Loads.UniformLoad();
 
-	var elementDir = el1.Nodes[1].Location - el1.Nodes[0].Location;
-	var prjLoadDir = loadDirection * Math.Sign(loadMagnitude);
-
-	var cosTeta = Vector.Cross(elementDir, prjLoadDir).Length / (elementDir.Length * prjLoadDir.Length);
+	var elementDir = el1.Nodes[1].Location - el1.Nodes[0].Location;//or n0 - n1, does not matter
+	
+	var absCosTeta = Vector.Cross(elementDir.GetUnit(), loadDirection.GetUnit()).Length;
 
 	l1.Direction = loadDirection;
 	l1.CoordinationSystem = CoordinationSystem.Global;
-	l1.Magnitude = loadMagnitude * cosTeta;//only l1.Magnitude should change because of projected load
-
+	l1.Magnitude = loadMagnitude * absCosTeta; //magnitude should multiple by reduction coefficient absCosTeta
 
 	el1.Loads.Add(l1);
 
