@@ -109,6 +109,7 @@ There is an inclined element of length = ``5 [m]``, and an ``UniformLoad`` of ma
 result
 
 n0 reaction: F: 2000, 0, -1500, M: 0, 0, 0
+
 n1 reaction: F: 2000, 0, -1500, M: 0, 0, 0
 
 Example 3
@@ -124,7 +125,7 @@ Consider the inclined frame shown in fig below, under snow load.
    
 There is an inclined element of length = ``5 [m]``, and an ``UniformLoad`` of magnitude ``1000 [N/m]`` which is projected.
 There is a difference about this type of load with two other examples above. For applying such projected load, first we have to convert it to example 1. 
-Based on [toturial in learnaboutstructures.com](http://www.learnaboutstructures.com/Determinate-Frame-Analysis) this is the way to convert:
+Based on `toturial in www.learnaboutstructures.com <http://www.learnaboutstructures.com/Determinate-Frame-Analysis>`_ this is the way to convert:
 
 .. figure:: ../images/uload-coord-sys-3-cnv.png
    :align: center

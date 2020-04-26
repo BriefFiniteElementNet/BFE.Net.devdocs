@@ -14,13 +14,27 @@
    viewBox="0 0 744.09448819 1052.3622047"
    id="svg2"
    version="1.1"
-   inkscape:version="0.91 r13725"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
    sodipodi:docname="trapezoidalload.svg"
    inkscape:export-filename="D:\Codes\VS Projects\BriefFiniteElementNet_DevDocs\docs\loads\elementLoads\images\tload-ex1"
    inkscape:export-xdpi="90"
    inkscape:export-ydpi="90">
   <defs
      id="defs4">
+    <marker
+       inkscape:stockid="Arrow1Lend"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="marker21876"
+       style="overflow:visible;"
+       inkscape:isstock="true">
+      <path
+         id="path21874"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         transform="scale(0.8) rotate(180) translate(12.5,0)" />
+    </marker>
     <marker
        inkscape:isstock="true"
        style="overflow:visible"
@@ -1981,21 +1995,6 @@
          id="path4971" />
     </marker>
     <marker
-       inkscape:stockid="Arrow1Lend"
-       orient="auto"
-       refY="0.0"
-       refX="0.0"
-       id="Arrow1Lend"
-       style="overflow:visible;"
-       inkscape:isstock="true"
-       inkscape:collect="always">
-      <path
-         id="path4230"
-         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
-         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
-         transform="scale(0.8) rotate(180) translate(12.5,0)" />
-    </marker>
-    <marker
        inkscape:isstock="true"
        style="overflow:visible"
        id="marker4783"
@@ -2437,6 +2436,142 @@
          style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1"
          transform="matrix(-0.8,0,0,-0.8,-10,0)" />
     </marker>
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible"
+       id="marker12808"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lend">
+      <path
+         inkscape:connector-curvature="0"
+         transform="matrix(-0.8,0,0,-0.8,-10,0)"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1.00000003pt;stroke-opacity:1"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         id="path12806" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker13288"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         inkscape:connector-curvature="0"
+         id="path13286"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1.00000003pt;stroke-opacity:1"
+         transform="matrix(-0.8,0,0,-0.8,-10,0)" />
+    </marker>
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible"
+       id="marker14486"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lend">
+      <path
+         inkscape:connector-curvature="0"
+         transform="matrix(-0.8,0,0,-0.8,-10,0)"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1.00000003pt;stroke-opacity:1"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         id="path14484" />
+    </marker>
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible"
+       id="marker15756"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lend">
+      <path
+         inkscape:connector-curvature="0"
+         transform="matrix(-0.8,0,0,-0.8,-10,0)"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1.00000003pt;stroke-opacity:1"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         id="path15754" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker16966"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         inkscape:connector-curvature="0"
+         id="path16964"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1.00000003pt;stroke-opacity:1"
+         transform="matrix(-0.8,0,0,-0.8,-10,0)" />
+    </marker>
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible"
+       id="marker18182"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lend">
+      <path
+         inkscape:connector-curvature="0"
+         transform="matrix(-0.8,0,0,-0.8,-10,0)"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1.00000003pt;stroke-opacity:1"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         id="path18180" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker7300"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         inkscape:connector-curvature="0"
+         id="path7298"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1.00000003pt;stroke-opacity:1"
+         transform="matrix(-0.8,0,0,-0.8,-10,0)" />
+    </marker>
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible"
+       id="marker8372"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lend">
+      <path
+         inkscape:connector-curvature="0"
+         transform="matrix(-0.8,0,0,-0.8,-10,0)"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1.00000003pt;stroke-opacity:1"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         id="path8370" />
+    </marker>
+    <marker
+       inkscape:collect="always"
+       inkscape:isstock="true"
+       style="overflow:visible"
+       id="Arrow1Lend"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lend">
+      <path
+         inkscape:connector-curvature="0"
+         transform="matrix(-0.8,0,0,-0.8,-10,0)"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1.00000003pt;stroke-opacity:1"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         id="path4230" />
+    </marker>
   </defs>
   <sodipodi:namedview
      id="base"
@@ -2446,8 +2581,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1.7843398"
-     inkscape:cx="284.26219"
-     inkscape:cy="573.23951"
+     inkscape:cx="231.30143"
+     inkscape:cy="903.89402"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="true"
@@ -2457,9 +2592,9 @@
      inkscape:snap-nodes="true"
      inkscape:object-paths="true"
      inkscape:object-nodes="true"
-     inkscape:window-width="1536"
-     inkscape:window-height="801"
-     inkscape:window-x="-8"
+     inkscape:window-width="1920"
+     inkscape:window-height="1058"
+     inkscape:window-x="1912"
      inkscape:window-y="-8"
      inkscape:window-maximized="1">
     <inkscape:grid
@@ -2474,7 +2609,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -2483,94 +2618,6 @@
      inkscape:groupmode="layer"
      id="layer1"
      style="display:inline">
-    <path
-       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow1Lend)"
-       d="m 215.05739,56.202825 0,79.230195"
-       id="path4215"
-       inkscape:connector-curvature="0"
-       inkscape:export-filename="D:\Codes\VS Projects\BriefFiniteElementNet_DevDocs\docs\loads\elementLoads\images\toad-body-bar.png"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
-    <path
-       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker5479)"
-       d="m 375.05739,96.202825 0,40.000005"
-       id="path4217"
-       inkscape:connector-curvature="0"
-       inkscape:export-filename="D:\Codes\VS Projects\BriefFiniteElementNet_DevDocs\docs\loads\elementLoads\images\toad-body-bar.png"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
-    <path
-       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="m 215.05739,56.202825 160,40"
-       id="path4219"
-       inkscape:connector-curvature="0"
-       inkscape:export-filename="D:\Codes\VS Projects\BriefFiniteElementNet_DevDocs\docs\loads\elementLoads\images\toad-body-bar.png"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
-    <path
-       style="fill:none;fill-rule:evenodd;stroke:#ff0000;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="m 118.25102,151.18854 c -29.019811,0 318.32502,0 318.32502,0"
-       id="path12261"
-       inkscape:connector-curvature="0"
-       inkscape:export-filename="D:\Codes\VS Projects\BriefFiniteElementNet_DevDocs\docs\loads\elementLoads\images\toad-body-bar.png"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
-    <path
-       inkscape:export-ydpi="90"
-       inkscape:export-xdpi="90"
-       inkscape:export-filename="D:\Codes\VS Projects\BriefFiniteElementNet_DevDocs\docs\loads\elementLoads\images\toad-body-bar.png"
-       inkscape:connector-curvature="0"
-       id="path13109"
-       d="m 235.05739,61.202825 0,74.230195"
-       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker16901)" />
-    <path
-       inkscape:export-ydpi="90"
-       inkscape:export-xdpi="90"
-       inkscape:export-filename="D:\Codes\VS Projects\BriefFiniteElementNet_DevDocs\docs\loads\elementLoads\images\toad-body-bar.png"
-       inkscape:connector-curvature="0"
-       id="path15609"
-       d="m 255.12823,66.220535 0,69.212485"
-       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker15613)" />
-    <path
-       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker20279)"
-       d="m 275.12823,71.220535 0,64.212485"
-       id="path15611"
-       inkscape:connector-curvature="0"
-       inkscape:export-filename="D:\Codes\VS Projects\BriefFiniteElementNet_DevDocs\docs\loads\elementLoads\images\toad-body-bar.png"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
-    <path
-       inkscape:export-ydpi="90"
-       inkscape:export-xdpi="90"
-       inkscape:export-filename="D:\Codes\VS Projects\BriefFiniteElementNet_DevDocs\docs\loads\elementLoads\images\toad-body-bar.png"
-       inkscape:connector-curvature="0"
-       id="path17865"
-       d="m 295.19908,76.238248 0,59.194772"
-       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker17873)" />
-    <path
-       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker23595)"
-       d="m 315.19908,81.238247 0,54.194773"
-       id="path17867"
-       inkscape:connector-curvature="0"
-       inkscape:export-filename="D:\Codes\VS Projects\BriefFiniteElementNet_DevDocs\docs\loads\elementLoads\images\toad-body-bar.png"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
-    <path
-       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker22589)"
-       d="m 335.26992,86.255958 0,49.177062"
-       id="path17869"
-       inkscape:connector-curvature="0"
-       inkscape:export-filename="D:\Codes\VS Projects\BriefFiniteElementNet_DevDocs\docs\loads\elementLoads\images\toad-body-bar.png"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
-    <path
-       inkscape:export-ydpi="90"
-       inkscape:export-xdpi="90"
-       inkscape:export-filename="D:\Codes\VS Projects\BriefFiniteElementNet_DevDocs\docs\loads\elementLoads\images\toad-body-bar.png"
-       inkscape:connector-curvature="0"
-       id="path17871"
-       d="m 355.26992,91.255958 0,44.177062"
-       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker13111)" />
     <path
        inkscape:export-ydpi="90"
        inkscape:export-xdpi="90"
@@ -2661,18 +2708,18 @@
        inkscape:export-ydpi="90" />
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:12.5px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="font-style:normal;font-weight:normal;line-height:0%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        x="168.78117"
        y="530.30042"
        id="text24983"
-       sodipodi:linespacing="125%"
        inkscape:export-filename="D:\Codes\VS Projects\BriefFiniteElementNet_DevDocs\docs\loads\elementLoads\images\tload-ex1.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90"><tspan
          sodipodi:role="line"
          id="tspan24985"
          x="168.78117"
-         y="530.30042">2m</tspan></text>
+         y="530.30042"
+         style="font-size:12.5px;line-height:1.25">2m</tspan></text>
     <path
        style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none;marker-start:url(#marker31284)"
        d="m 129.98142,527.48295 35.07121,0"
@@ -2722,11 +2769,10 @@
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90" />
     <text
-       sodipodi:linespacing="125%"
        id="text26072"
        y="530.30042"
        x="288.7135"
-       style="font-style:normal;font-weight:normal;font-size:12.5px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="font-style:normal;font-weight:normal;line-height:0%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        xml:space="preserve"
        inkscape:export-filename="D:\Codes\VS Projects\BriefFiniteElementNet_DevDocs\docs\loads\elementLoads\images\tload-ex1.png"
        inkscape:export-xdpi="90"
@@ -2734,27 +2780,27 @@
          y="530.30042"
          x="288.7135"
          id="tspan26074"
-         sodipodi:role="line">3m</tspan></text>
+         sodipodi:role="line"
+         style="font-size:12.5px;line-height:1.25">3m</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:12.5px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="font-style:normal;font-weight:normal;line-height:0%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        x="409.06613"
        y="530.30042"
        id="text26076"
-       sodipodi:linespacing="125%"
        inkscape:export-filename="D:\Codes\VS Projects\BriefFiniteElementNet_DevDocs\docs\loads\elementLoads\images\tload-ex1.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90"><tspan
          sodipodi:role="line"
          id="tspan26078"
          x="409.06613"
-         y="530.30042">1m</tspan></text>
+         y="530.30042"
+         style="font-size:12.5px;line-height:1.25">1m</tspan></text>
     <text
-       sodipodi:linespacing="125%"
        id="text35380"
        y="394.67603"
        x="169.90204"
-       style="font-style:normal;font-weight:normal;font-size:12.5px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="font-style:normal;font-weight:normal;line-height:0%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        xml:space="preserve"
        inkscape:export-filename="D:\Codes\VS Projects\BriefFiniteElementNet_DevDocs\docs\loads\elementLoads\images\tload-ex1.png"
        inkscape:export-xdpi="90"
@@ -2762,21 +2808,148 @@
          y="394.67603"
          x="169.90204"
          id="tspan35382"
-         sodipodi:role="line">2 kN/m</tspan></text>
+         sodipodi:role="line"
+         style="font-size:12.5px;line-height:1.25">2 kN/m</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:12.5px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="font-style:normal;font-weight:normal;line-height:0%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        x="399.67889"
        y="449.03787"
        id="text35384"
-       sodipodi:linespacing="125%"
        inkscape:export-filename="D:\Codes\VS Projects\BriefFiniteElementNet_DevDocs\docs\loads\elementLoads\images\tload-ex1.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90"><tspan
          sodipodi:role="line"
          id="tspan35386"
          x="399.67889"
-         y="449.03787">1 kN/m</tspan></text>
+         y="449.03787"
+         style="font-size:12.5px;line-height:1.25">1 kN/m</tspan></text>
+    <path
+       style="display:inline;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow1Lend)"
+       d="m 239.03627,110.26084 v 79.2302"
+       id="path4215"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="D:\Codes\VS Projects\BriefFiniteElementNet_DevDocs\docs\loads\elementLoads\images\toad-body-bar.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="display:inline;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker8372)"
+       d="m 399.03628,120.66653 v 69.59432"
+       id="path4217"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="D:\Codes\VS Projects\BriefFiniteElementNet_DevDocs\docs\loads\elementLoads\images\toad-body-bar.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="display:inline;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 239.03627,110.26084 c 0,0 23.27287,26.91869 84.01786,8.61607 60.745,-18.30261 75.98215,1.78962 75.98215,1.78962"
+       id="path4219"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="D:\Codes\VS Projects\BriefFiniteElementNet_DevDocs\docs\loads\elementLoads\images\toad-body-bar.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"
+       sodipodi:nodetypes="czc" />
+    <path
+       style="display:inline;fill:none;fill-rule:evenodd;stroke:#ff0000;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 142.22989,205.24656 c -29.01981,0 318.32503,0 318.32503,0"
+       id="path12261"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="D:\Codes\VS Projects\BriefFiniteElementNet_DevDocs\docs\loads\elementLoads\images\toad-body-bar.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="D:\Codes\VS Projects\BriefFiniteElementNet_DevDocs\docs\loads\elementLoads\images\toad-body-bar.png"
+       inkscape:connector-curvature="0"
+       id="path13109"
+       d="m 259.03627,121.7124 v 67.77864"
+       style="display:inline;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker7300)"
+       sodipodi:nodetypes="cc" />
+    <path
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="D:\Codes\VS Projects\BriefFiniteElementNet_DevDocs\docs\loads\elementLoads\images\toad-body-bar.png"
+       inkscape:connector-curvature="0"
+       id="path15609"
+       d="m 279.10711,125.07283 v 64.41821"
+       style="display:inline;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker18182)"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="display:inline;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker16966)"
+       d="m 299.10711,124.15397 v 65.33707"
+       id="path15611"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="D:\Codes\VS Projects\BriefFiniteElementNet_DevDocs\docs\loads\elementLoads\images\toad-body-bar.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"
+       sodipodi:nodetypes="cc" />
+    <path
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="D:\Codes\VS Projects\BriefFiniteElementNet_DevDocs\docs\loads\elementLoads\images\toad-body-bar.png"
+       inkscape:connector-curvature="0"
+       id="path17865"
+       d="m 319.17796,120.25162 v 69.23942"
+       style="display:inline;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker15756)"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="display:inline;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker14486)"
+       d="m 339.17796,114.20251 v 75.28853"
+       id="path17867"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="D:\Codes\VS Projects\BriefFiniteElementNet_DevDocs\docs\loads\elementLoads\images\toad-body-bar.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="display:inline;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker13288)"
+       d="m 359.2488,111.51933 v 77.97171"
+       id="path17869"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="D:\Codes\VS Projects\BriefFiniteElementNet_DevDocs\docs\loads\elementLoads\images\toad-body-bar.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"
+       sodipodi:nodetypes="cc" />
+    <path
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="D:\Codes\VS Projects\BriefFiniteElementNet_DevDocs\docs\loads\elementLoads\images\toad-body-bar.png"
+       inkscape:connector-curvature="0"
+       id="path17871"
+       d="m 379.2488,111.83183 v 77.65921"
+       style="display:inline;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker12808)"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="display:inline;fill:none;stroke:#000000;stroke-width:0.9375;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:2.81250012, 2.81250012;stroke-dashoffset:0;stroke-opacity:1"
+       d="m 239.03627,110.26085 c -31.92297,-32.216621 -58.08436,6.25599 -58.08436,6.25599"
+       id="path19468"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="display:inline;fill:none;stroke:#000000;stroke-width:0.9375;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:2.81250012, 2.81250012;stroke-dashoffset:0;stroke-opacity:1"
+       d="m 399.03628,120.66653 c 16.67969,14.74837 20.51338,9.10508 35.70589,12.57885"
+       id="path19470"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:11.25px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.9375"
+       x="180.61273"
+       y="87.625954"
+       id="text19528"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         id="tspan19526"
+         x="180.61273"
+         y="87.625954"
+         style="stroke-width:0.9375">Polynomial</tspan></text>
   </g>
   <g
      inkscape:groupmode="layer"

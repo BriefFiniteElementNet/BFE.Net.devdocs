@@ -11,5 +11,6 @@ Examples
     isoparamcoord/index
     inclinedframe/index
     UniformLoadCoordSystem/index
+    simple-cantilever/index
 
 This section contains example items.
