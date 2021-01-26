@@ -12,5 +12,7 @@ Examples
     inclinedframe/index
     UniformLoadCoordSystem/index
     simple-cantilever/index
+    bargeosection/index
+    settlement/index
 
 This section contains example items.

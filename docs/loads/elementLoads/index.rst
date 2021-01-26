@@ -8,10 +8,10 @@ Elemental Loads
 
     concentratedload
     uniformload
-    trapezoidalload
+    partialnonuniformload
 	
 ElementLoad is a base class that can only apply on the Element. There are several ``ElementLoad``s:
 
-- UniformLoad: A uniform load that can apply on a element or one of its faces or edges.
-- TrapezoidalLoad: A Partial linear varying load.
-- ConcentratedLoad: TODO
+- ``UniformLoad``: A uniform load that can apply on a ``Element`` or one of its faces or edges.
+- ``PartialNonuniformLoad``: A Partial varying load.
+- ``ConcentratedLoad``: A concentratel load that applies on a single point in `Element`'s body

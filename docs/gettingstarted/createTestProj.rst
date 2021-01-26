@@ -5,6 +5,8 @@ After downloading the source code you should reference the main projects of bfe 
 we will use Visual Studio 2015 in next. you can use any version of Visual Studio IDE including free express or community version. by the way it is downloadable from ``https://visualstudio.microsoft.com/``.
 In next we will use visual Studio 2015...
 
+Some users reported project does not build with Visual Studio 2017, there are some workarounds in (`issue #42 on project on github<https://github.com/BriefFiniteElementNet/BriefFiniteElement.Net/issues/42>`_).
+
 Creating new project
 --------------------
 
