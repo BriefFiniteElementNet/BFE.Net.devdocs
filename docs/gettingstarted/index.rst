@@ -8,6 +8,7 @@ Getting Started
 
     downloadsrc
     createTestProj
+    installNuget
 	
 This section is about getting started to use BFE.NET.
 
