@@ -4,7 +4,7 @@ PartialNonUniformLoad
 
 Here are examples illustrated in image:
 
-.. figure:: images/tload-body-bar.png
+.. figure:: images/pnfload-body-bar.png
    :align: center
    
    ``PartialNonUniformLoad`` applying on a BarElement
@@ -28,3 +28,27 @@ Coordination System
 
 	- ``CoordinationSystem.Global``: The load is assumed in global coordination system
 	- ``CoordinationSystem.Local``: The load is assumed in local coordination system of element that load is applied to (each element type have different local coordination system which is stated in appropriated section).
+	
+	
+	
+Example 1: Linear Varying load
+----------------------
+For load shown in the image:
+
+.. figure:: images/bfe-example-pnl.png
+   :align: center
+   
+first need to calculate isoparametric coords of locations (see see :ref:`Example-Bar-isoparam` section for more info)
+
+
+.. figure:: images/pnl-bar-example-iso.png
+   :align: center
+   
+``
+var load = new PartialNonUniformLoad();            //creating new instance of load
+load.SeverityFunction = Mathh.SingleVariablePolynomial.FromPoints(-1/3, 2000, 2/3, 1000);
+//this is a totally linear load, defined from two points. since it is partial, need to tell bfe the span this load is applied
+
+load.StartLocation = new IsoPoint(-1/3);      //set locations of trapezoidal load
+load.EndLocation = new IsoPoint(2/3);         //set locations of trapezoidal load
+``
